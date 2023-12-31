@@ -36,7 +36,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "14" # adjust the version if needed
+          node-version: "18" # adjust the version if needed
           cache: "npm"
 
       - name: Install Dependencies
