@@ -70,7 +70,7 @@ export function Component() {
               <p className="text-xl text-white">I specialize in creating high-quality apps and projects, most of them open source.</p>
             </div>
           </div>
-          <div style={{ marginLeft: '-50rem' }} className="flex items-center space-x-4 mt-4">
+          <div style={{ marginLeft: '-80rem' }} className="flex items-center space-x-4 mt-4">
             <a href="https://www.instagram.com/davidnintcheu/" rel="noopener noreferrer" target="_blank">
               <InstagramIcon className="w-6 h-6 transform hover:scale-110 transition-transform duration-200 text-white" />
             </a>
