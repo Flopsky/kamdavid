@@ -1,4 +1,3 @@
-
 import Link from "next/link"
 import { Avatar } from "@/components/ui/avatar"
 import { Badge } from "@/components/ui/badge"
@@ -10,9 +9,10 @@ export function Component() {
     (<main
       key="1"
       className="flex flex-col items-center justify-center p-4 bg-gray-900 text-white font-mono">
-      <header className="w-full flex justify-between items-center p-4">
+      <header
+        className="w-full flex flex-wrap justify-between items-center p-4 sticky top-0 bg-gray-900">
         <h1 className="text-4xl font-bold">David KAMGANG  </h1>
-        <nav className="flex gap-4">
+        <nav className="flex flex-wrap gap-4">
           <Link className="text-lg font-medium hover:underline" href="#">
             <InfoIcon className="w-4 h-4 text-blue-500" />
             About
@@ -47,10 +47,11 @@ export function Component() {
         className="w-full h-[500px] bg-center bg-cover"
         id="hero"
         style={{
-          backgroundImage: '"""\\"\\"\\\\"url(\'/placeholder.svg?height=500&width=1200\')\\\\"\\\\"\\"\\""',
+          backgroundImage: "\"url('/placeholder.svg?height=500&width=1200')\"",
         }}>
-        <div className="h-full flex flex-col justify-center items-center text-center bg-black bg-opacity-60">
-          <div className="flex items-center space-x-4">
+        <div
+          className="h-full flex flex-col justify-center items-center text-center bg-black bg-opacity-60">
+          <div className="flex flex-wrap items-center space-x-4">
             <img
               alt="Your Picture"
               className="w-24 h-24 rounded-full"
@@ -60,28 +61,27 @@ export function Component() {
                 aspectRatio: "100/100",
                 objectFit: "cover",
               }}
-              width="100"
-            />
+              width="100" />
             <div>
               <h2 className="text-3xl font-bold text-white">Hello, I'm a HPC and Data Science Engineer</h2>
               <p className="text-xl text-white">I specialize in creating high-quality apps and projects, most of them open source.</p>
             </div>
           </div>
-          <div style={{ marginLeft: '-62rem' }} className="flex items-center space-x-4 mt-4">
+          <div className="flex flex-wrap items-center space-x-4 mt-4">
             <a href="https://www.instagram.com/davidnintcheu/" rel="noopener noreferrer" target="_blank">
-              <InstagramIcon className="w-6 h-6 transform hover:scale-110 transition-transform duration-200 text-white" />
+              <InstagramIcon className="w-6 h-6 text-white" />
             </a>
             <a href="https://github.com/Flopsky" rel="noopener noreferrer" target="_blank">
-              <GithubIcon className="w-6 h-6 transform hover:scale-110 transition-transform duration-200 text-white" />
+              <GithubIcon className="w-6 h-6 text-white" />
             </a>
             <a href="https://www.linkedin.com/in/dkamgang/" rel="noopener noreferrer" target="_blank">
-              <LinkedinIcon className="w-6 h-6 transform hover:scale-110 transition-transform duration-200 text-white" />
+              <LinkedinIcon className="w-6 h-6 text-white" />
             </a>
             <a href="mailto:David%20Doe%20<davidkamgang84@gmail.com>" rel="noopener noreferrer" target="_blank">
-              <MailIcon className="w-6 h-6 transform hover:scale-110 transition-transform duration-200 text-white" />
+              <MailIcon className="w-6 h-6 text-white" />
             </a>
             <a href="#" rel="noopener noreferrer" target="_blank">
-              <YoutubeIcon className="w-6 h-6 transform hover:scale-110 transition-transform duration-200 text-white" />
+              <YoutubeIcon className="w-6 h-6 text-white" />
             </a>
           </div>
         </div>
@@ -103,7 +103,7 @@ export function Component() {
       <section className="w-full flex flex-col items-center gap-8 p-4" id="projects">
         <h3 className="text-2xl font-bold">Current Projects</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          <Card className="bg-gray-800 transform hover:scale-110 transition-transform duration-200">
+          <Card className="bg-gray-800 transform hover:scale-105 transition-transform duration-200">
             <CardHeader>
               <h4 className="text-lg font-bold text-blue-500">
                 <ProjectorIcon className="w-4 h-4" />
@@ -116,7 +116,7 @@ export function Component() {
               </p>
             </CardContent>
           </Card>
-          <Card className="bg-gray-800 transform hover:scale-110 transition-transform duration-200">
+          <Card className="bg-gray-800 transform hover:scale-105 transition-transform duration-200">
             <CardHeader>
               <h4 className="text-lg font-bold text-yellow-500">
                 <ProjectorIcon className="w-4 h-4" />
@@ -129,7 +129,7 @@ export function Component() {
               </p>
             </CardContent>
           </Card>
-          <Card className="bg-gray-800 transform hover:scale-110 transition-transform duration-200">
+          <Card className="bg-gray-800 transform hover:scale-105 transition-transform duration-200">
             <CardHeader>
               <h4 className="text-lg font-bold text-green-500">
                 <ProjectorIcon className="w-4 h-4" />
@@ -146,12 +146,15 @@ export function Component() {
       </section>
       <section className="w-full flex flex-col items-center gap-8 p-4">
         <h3 className="text-2xl font-bold">Skills</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full">
-          <Card className="bg-gray-800 transform hover:scale-110 transition-transform duration-200">
+        <div
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 w-full">
+          <Card
+            className="bg-gray-800 transform hover:scale-105 transition-transform duration-200">
             <CardHeader>
               <h4 className="text-lg font-bold text-blue-500">Data Engineering</h4>
             </CardHeader>
-            <CardContent className="flex flex-wrap gap-4">
+            <CardContent
+              className="flex flex-wrap gap-4 justify-center items-center space-x-2 animate-bounce-slow">
               <img alt="SQL" className="w-10 h-10 transform hover:scale-110 transition-transform duration-200" src="https://www.svgrepo.com/show/331760/sql-database-generic.svg" title="SQL" />
               <img alt="DBT" className="w-10 h-10 transform hover:scale-110 transition-transform duration-200" src="https://raw.githubusercontent.com/dbt-labs/events.getdbt.com/3df02b2103f5d4257c80f4ef4d70e98c87fd5530/ui/img/logos/logo-white.svg" title="DBT" />
               <img
@@ -166,11 +169,12 @@ export function Component() {
               <img alt="ELK" className="w-10 h-10 transform hover:scale-110 transition-transform duration-200" src="https://cdn.worldvectorlogo.com/logos/elastic-stack.svg" title="ELK" />
             </CardContent>
           </Card>
-          <Card className="bg-gray-800 transform hover:scale-110 transition-transform duration-200">
+          <Card
+            className="bg-gray-800 transform hover:scale-105 transition-transform duration-200">
             <CardHeader>
               <h4 className="text-lg font-bold text-yellow-500">DevOps</h4>
             </CardHeader>
-            <CardContent className="flex flex-wrap gap-4">
+            <CardContent className="flex flex-wrap gap-4 justify-center items-center space-x-2">
               <img
                 alt="Github Action"
                 className="w-10 h-10 transform hover:scale-110 transition-transform duration-200"
@@ -200,11 +204,12 @@ export function Component() {
                 title="Terraform" />
             </CardContent>
           </Card>
-          <Card className="bg-gray-800 transform hover:scale-110 transition-transform duration-200">
+          <Card
+            className="bg-gray-800 transform hover:scale-105 transition-transform duration-200">
             <CardHeader>
               <h4 className="text-lg font-bold text-green-500">HPC</h4>
             </CardHeader>
-            <CardContent className="flex flex-wrap gap-4">
+            <CardContent className="flex flex-wrap gap-4 justify-center items-center space-x-2">
               <img alt="CUDA" className="w-10 h-10 transform hover:scale-110 transition-transform duration-200" src="https://www.svgrepo.com/show/373541/cuda.svg" title="CUDA" />
               <img
                 alt="OpenCL"
@@ -224,11 +229,12 @@ export function Component() {
                 title="Inria/Vite" />
             </CardContent>
           </Card>
-          <Card className="bg-gray-800 transform hover:scale-110 transition-transform duration-200">
+          <Card
+            className="bg-gray-800 transform hover:scale-105 transition-transform duration-200">
             <CardHeader>
               <h4 className="text-lg font-bold text-indigo-500">Data Science</h4>
             </CardHeader>
-            <CardContent className="flex flex-wrap gap-4" >
+            <CardContent className="flex flex-wrap gap-4 justify-center items-center space-x-2">
               <img
                 alt="PyTorch"
                 className="w-10 h-10 transform hover:scale-110 transition-transform duration-200"
@@ -252,15 +258,15 @@ export function Component() {
       <section className="w-full flex flex-col items-center gap-8 p-4" id="contact">
         <h3 className="text-2xl font-bold">Contact</h3>
         <a href="mailto:David%20Doe%20<davidkamgang84@gmail.com>" rel="noopener noreferrer" target="_blank">
-          <Button className="bg-blue-500 hover:bg-blue-700" variant="filled">
-
+          <Button
+            className="bg-blue-500 hover:bg-blue-700 w-full sm:w-auto"
+            variant="filled">
             <MailIcon className="w-4 h-4" />
             Contact Me
-
           </Button>
         </a>
       </section>
-      <footer className="w-full flex justify-center items-center p-4 bg-gray-800 transform hover:scale-110 transition-transform duration-200">
+      <footer className="w-full flex justify-center items-center p-4 bg-gray-800">
         <p className="text-sm text-gray-500">© David KAMGANG</p>
       </footer>
     </main>)
@@ -425,6 +431,70 @@ function ContactIcon(props) {
 }
 
 
+function InstagramIcon(props) {
+  return (
+    (<svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round">
+      <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+    </svg>)
+  );
+}
+
+
+function GithubIcon(props) {
+  return (
+    (<svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round">
+      <path
+        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+      <path d="M9 18c-4.51 2-5-2-7-2" />
+    </svg>)
+  );
+}
+
+
+function LinkedinIcon(props) {
+  return (
+    (<svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round">
+      <path
+        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+      <rect width="4" height="12" x="2" y="9" />
+      <circle cx="4" cy="4" r="2" />
+    </svg>)
+  );
+}
+
+
 function MailIcon(props) {
   return (
     (<svg
@@ -444,9 +514,10 @@ function MailIcon(props) {
   );
 }
 
+
 function YoutubeIcon(props) {
   return (
-    <svg
+    (<svg
       {...props}
       xmlns="http://www.w3.org/2000/svg"
       width="24"
@@ -456,73 +527,10 @@ function YoutubeIcon(props) {
       stroke="currentColor"
       strokeWidth="2"
       strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
+      strokeLinejoin="round">
+      <path
+        d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
       <path d="m10 15 5-3-5-3z" />
-    </svg>
-  )
-}
-
-function InstagramIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
-    </svg>
-  )
-}
-
-
-function LinkedinIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-      <rect width="4" height="12" x="2" y="9" />
-      <circle cx="4" cy="4" r="2" />
-    </svg>
-  )
-}
-
-function GithubIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
-      <path d="M9 18c-4.51 2-5-2-7-2" />
-    </svg>
-  )
+    </svg>)
+  );
 }
