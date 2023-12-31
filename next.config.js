@@ -1,4 +1,5 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = nextConfig
+// next.config.js
+module.exports = {
+    basePath: '/Flopsky.github.io',
+    // other configurations...
+};
