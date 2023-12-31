@@ -1,17 +1,18 @@
-/**
- * @type {import('next').NextConfig}
- */
-const nextConfig = {
-    output: 'export',
+// next.config.js
+const withImages = require('next-images');
 
-    // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
-    // trailingSlash: true,
+module.exports = withImages({
+    basePath: '/Flopsky.github.io',
+    // Your other configurations...
 
-    // Optional: Prevent automatic `/me` -> `/me/`, instead preserve `href`
-    // skipTrailingSlashRedirect: true,
+    // Use the target: 'serverless' option to enable the export feature
+    target: 'serverless',
 
-    // Optional: Change the output directory `out` -> `dist`
-    // distDir: 'dist',
-}
-
-module.exports = nextConfig
+    // Add the following lines for static HTML export
+    exportPathMap: async function () {
+        return {
+            '/': { page: '/' },
+            // Add other pages as needed
+        };
+    },
+});
