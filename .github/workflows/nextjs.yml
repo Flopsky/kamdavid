@@ -54,14 +54,14 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "14"  # Adjust the version as needed
           cache: ${{ steps.detect-package-manager.outputs.manager }}
 
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.runner }} ${{ steps.detect-package-manager.outputs.command }}
 
       - name: Build and export with Next.js
-        run: ${{ steps.detect-package-manager.outputs.runner }} next build && ${{ steps.detect-package-manager.outputs.runner }} next export
+        run: ${{ steps.detect-package-manager.outputs.runner }} run next build && ${{ steps.detect-package-manager.outputs.runner }} run next export
 
       - name: Upload artifact
         uses: actions/upload-artifact@v2
