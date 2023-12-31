@@ -67,7 +67,7 @@ export function Component() {
             />
             <div>
               <h2 className="text-3xl font-bold text-white">Hello, I'm a HPC and Data Science Engineer</h2>
-              <p className="text-xl text-white">I specialize in creating high-quality web and mobile applications.</p>
+              <p className="text-xl text-white">   </p>
             </div>
           </div>
           <div style={{ marginLeft: '-50rem' }} className="flex items-center space-x-4 mt-4">
