@@ -13,7 +13,7 @@ export function Component() {
       key="1"
       className="flex flex-col items-center justify-center p-4 bg-gray-900 text-white font-mono">
       <header
-        className="w-full flex flex-wrap justify-between items-center p-4 sticky top-0 bg-gray-900">
+        className="w-full flex flex-wrap justify-between items-center p-4 sticky top-0 bg-gray-900 z-50">
         <h1 className="text-4xl font-bold">David KAMGANG  </h1>
         <nav className="flex flex-wrap gap-4">
           <Link className="text-lg font-medium hover:underline" href="#">
