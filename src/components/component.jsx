@@ -5,6 +5,9 @@ import { CardHeader, CardContent, Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 
 export function Component() {
+
+
+
   return (
     (<main
       key="1"
@@ -33,7 +36,7 @@ export function Component() {
             <ComputerIcon className="w-4 h-4 text-indigo-500" />
             HPC
           </Link>
-          <Link className="text-lg font-medium hover:underline" href="#">
+          <Link className="text-lg font-medium hover:underline" href="/investing">
             <CurrencyIcon className="w-4 h-4 text-pink-500" />
             Investing
           </Link>
@@ -47,13 +50,15 @@ export function Component() {
         className="w-full h-[500px] bg-center bg-cover"
         id="hero"
         style={{
-          backgroundImage: "\"url('/placeholder.svg?height=500&width=1200')\"",
-        }}>
-        <div
-          className="h-full flex flex-col justify-center items-center text-center bg-black bg-opacity-60">
-          <div className="flex flex-wrap items-center space-x-4">
+          backgroundImage: "url('/placeholder.svg?height=500&width=1200')",
+        }}
+      >
+        <div className="h-full flex justify-center items-center bg-black bg-opacity-60">
+          {/* Left side: div containing image and icons */}
+          <div className="flex flex-col items-center space-y-4 p-4">
+            {/* Image div */}
             <img
-              alt="Your Picture"
+              alt="David KAMGANG"
               className="w-24 h-24 rounded-full"
               height="100"
               src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYRwZoodMi6QSqQLpLLlvIrlX3AZmncXeI66kmAeKRCNMw263IHTKK5Fyt9FDgrr2PfKV7A5gQKB2cDIAtWaSkQnrwFfsA=w2160-h1337"
@@ -61,31 +66,36 @@ export function Component() {
                 aspectRatio: "100/100",
                 objectFit: "cover",
               }}
-              width="100" />
-            <div>
-              <h2 className="text-3xl font-bold text-white">Hello, I'm a HPC and Data Science Engineer</h2>
-              <p className="text-xl text-white">I specialize in creating high-quality apps and projects, most of them open source.</p>
+              width="100"
+            />
+            {/* Icons div */}
+            <div className="flex items-center space-x-4">
+              <a href="https://www.instagram.com/davidnintcheu/" rel="noopener noreferrer" target="_blank">
+                <InstagramIcon className="w-6 h-6 text-white" />
+              </a>
+              <a href="https://github.com/Flopsky" rel="noopener noreferrer" target="_blank">
+                <GithubIcon className="w-6 h-6 text-white" />
+              </a>
+              <a href="https://www.linkedin.com/in/dkamgang/" rel="noopener noreferrer" target="_blank">
+                <LinkedinIcon className="w-6 h-6 text-white" />
+              </a>
+              <a href="mailto:David%20Doe%20<davidkamgang84@gmail.com>" rel="noopener noreferrer" target="_blank">
+                <MailIcon className="w-6 h-6 text-white" />
+              </a>
+              <a href="#" rel="noopener noreferrer" target="_blank">
+                <YoutubeIcon className="w-6 h-6 text-white" />
+              </a>
             </div>
           </div>
-          <div className="flex items-center space-x-4 mt-4 lg:ml-[-62rem]">
-            <a href="https://www.instagram.com/davidnintcheu/" rel="noopener noreferrer" target="_blank">
-              <InstagramIcon className="w-6 h-6 text-white" />
-            </a>
-            <a href="https://github.com/Flopsky" rel="noopener noreferrer" target="_blank">
-              <GithubIcon className="w-6 h-6 text-white" />
-            </a>
-            <a href="https://www.linkedin.com/in/dkamgang/" rel="noopener noreferrer" target="_blank">
-              <LinkedinIcon className="w-6 h-6 text-white" />
-            </a>
-            <a href="mailto:David%20Doe%20<davidkamgang84@gmail.com>" rel="noopener noreferrer" target="_blank">
-              <MailIcon className="w-6 h-6 text-white" />
-            </a>
-            <a href="#" rel="noopener noreferrer" target="_blank">
-              <YoutubeIcon className="w-6 h-6 text-white" />
-            </a>
+
+          {/* Right side: div containing text */}
+          <div className="p-4">
+            <h2 className="text-3xl font-bold text-white">Hello, I'm a HPC and Data Science Engineer</h2>
+            <p className="text-xl text-white">I specialize in creating high-quality apps and projects, most of them open source.</p>
           </div>
         </div>
       </section>
+
       <section className="w-full flex flex-col items-center gap-8 p-4" id="about">
         <Avatar
           alt="David KAMGANG"
@@ -216,7 +226,7 @@ export function Component() {
                 className="w-10 h-10 transform hover:scale-110 transition-transform duration-200"
                 src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenCL_logo.svg"
                 title="OpenCL" />
-              <img alt="OpenMP" className="w-10 h-10 transform hover:scale-110 transition-transform duration-200" src="https://www.svgrepo.com/show/499714/rocket.svg" title="OpenMP" />
+              <img alt="OpenMP" className="w-10 h-10 transform hover:scale-110 transition-transform duration-200" src="https://s186.convertio.me/p/HWrtTabEWOPSs3bonJFPOw/943e25e497bce06f247eafc278e7e8ac/OpenMP_logo.svg" title="OpenMP" />
               <img alt="MPI" className="w-10 h-10 transform hover:scale-110 transition-transform duration-200" src="https://www.svgrepo.com/show/448987/cluster.svg" title="MPI" />
               <img alt="MKL" className="w-10 h-10 transform hover:scale-110 transition-transform duration-200" src="https://www.svgrepo.com/show/454733/chip-computer-cpu.svg" title="MKL" />
               <img alt="BLAS" className="w-10 h-10 transform hover:scale-110 transition-transform duration-200" src="https://www.svgrepo.com/show/288625/chip-processor.svg" title="BLAS" />
