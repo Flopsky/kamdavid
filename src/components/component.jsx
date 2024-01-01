@@ -216,7 +216,7 @@ export function Component() {
                 className="w-10 h-10 transform hover:scale-110 transition-transform duration-200"
                 src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenCL_logo.svg"
                 title="OpenCL" />
-              <img alt="OpenMP" className="w-10 h-10 transform hover:scale-110 transition-transform duration-200" src="https://s186.convertio.me/p/HWrtTabEWOPSs3bonJFPOw/943e25e497bce06f247eafc278e7e8ac/OpenMP_logo.svg" title="OpenMP" />
+              <img alt="OpenMP" className="w-10 h-10 transform hover:scale-110 transition-transform duration-200" src="https://www.svgrepo.com/show/499714/rocket.svg" title="OpenMP" />
               <img alt="MPI" className="w-10 h-10 transform hover:scale-110 transition-transform duration-200" src="https://www.svgrepo.com/show/448987/cluster.svg" title="MPI" />
               <img alt="MKL" className="w-10 h-10 transform hover:scale-110 transition-transform duration-200" src="https://www.svgrepo.com/show/454733/chip-computer-cpu.svg" title="MKL" />
               <img alt="BLAS" className="w-10 h-10 transform hover:scale-110 transition-transform duration-200" src="https://www.svgrepo.com/show/288625/chip-processor.svg" title="BLAS" />
