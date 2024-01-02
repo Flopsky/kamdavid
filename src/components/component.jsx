@@ -74,19 +74,19 @@ export function Component() {
                 {/* Icons div */}
                 <div className="flex items-center space-x-4">
                   <a href="https://www.instagram.com/davidnintcheu/" rel="noopener noreferrer" target="_blank">
-                    <InstagramIcon className="w-6 h-6 text-white" />
+                    <InstagramIcon className="w-6 h-6 text-white hover:scale-105 transition-transform duration-200" />
                   </a>
                   <a href="https://github.com/Flopsky" rel="noopener noreferrer" target="_blank">
-                    <GithubIcon className="w-6 h-6 text-white" />
+                    <GithubIcon className="w-6 h-6 text-white hover:scale-105 transition-transform duration-200" />
                   </a>
                   <a href="https://www.linkedin.com/in/dkamgang/" rel="noopener noreferrer" target="_blank">
-                    <LinkedinIcon className="w-6 h-6 text-white" />
+                    <LinkedinIcon className="w-6 h-6 text-white hover:scale-105 transition-transform duration-200" />
                   </a>
                   <a href="mailto:David%20Doe%20<davidkamgang84@gmail.com>" rel="noopener noreferrer" target="_blank">
-                    <MailIcon className="w-6 h-6 text-white" />
+                    <MailIcon className="w-6 h-6 text-white hover:scale-105 transition-transform duration-200" />
                   </a>
                   <a href="#" rel="noopener noreferrer" target="_blank">
-                    <YoutubeIcon className="w-6 h-6 text-white" />
+                    <YoutubeIcon className="w-6 h-6 text-white hover:scale-105 transition-transform duration-200" />
                   </a>
                 </div>
               </div>
