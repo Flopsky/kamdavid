@@ -245,7 +245,7 @@ export function Component() {
               <Card
                 className="bg-gray-800 transform hover:scale-105 transition-transform duration-200">
                 <CardHeader>
-                  <h4 className="text-lg font-bold text-indigo-500">Data Science</h4>
+                  <h4 className="text-lg font-bold text-indigo-500">Machine Learning</h4>
                 </CardHeader>
                 <CardContent className="flex flex-wrap gap-4 justify-center items-center space-x-2">
                   <img
