@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* src/app/globals.css */
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -18,10 +19,28 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+/* Add this to your CSS file or style tag */
+
+.treemap-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+rect {
+  cursor: pointer;
+}
+
+rect:hover {
+  filter: brightness(0.8);
+}
+
+text {
+  pointer-events: none;
 }
