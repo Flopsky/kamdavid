@@ -1001,7 +1001,7 @@ export function Component() {
                 </Card>
 
                 <div >
-                    <h1>The bigger the better</h1>
+                    <h1>The bigger the better. This leaderboard is updated every 24h</h1>
                     <InteractiveTreemap data={data} />
                 </div>
 
