@@ -25,7 +25,6 @@
     "react-dom": "^18.2.0",
     "react-smooth": "^3.0.0",
     "react-tooltip": "^5.25.1",
-    "react-vis": "^1.12.1",
     "recharts": "^2.10.3",
     "styled-jsx": "^5.1.2",
     "tailwind-merge": "^2.0.2"
