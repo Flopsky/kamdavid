@@ -62,7 +62,7 @@ const InteractiveTreemap = ({ data }) => {
                 const fontSize = maxFontSize * scaleFactor;
 
                 // Adjust the font size for small screens
-                const mobileFontSize = 10; // Adjust as needed
+                const mobileFontSize = 5; // Adjust as needed
 
                 return `${width < 600 ? mobileFontSize : fontSize}px`;
             })
