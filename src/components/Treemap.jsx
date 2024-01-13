@@ -1,6 +1,5 @@
 "use client";
-
-import { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import * as d3 from 'd3';
 
 const InteractiveTreemap = ({ data }) => {
@@ -48,9 +47,64 @@ const InteractiveTreemap = ({ data }) => {
             .attr('y', (d) => (d.y1 - d.y0) / 2)
             .attr('text-anchor', 'middle')
             .attr('alignment-baseline', 'central')
-            .style('font-size', '16px')
             .style('fill', '#ffffff')
-            .text((d) => d.data.name);
+            .text((d) => d.data.name)
+            .style('font-size', (d) => {
+                // Set a maximum font size
+                const maxFontSize = 16; // Adjust as needed
+                const baseSize = 16; // Adjust as needed
+
+                // Calculate a scale factor based on the cell size
+                const scaleFactor = Math.min((d.x1 - d.x0) / baseSize, (d.y1 - d.y0) / baseSize, 1);
+
+                // Scale down the font size based on the scaleFactor
+                const fontSize = maxFontSize * scaleFactor;
+
+                return `${fontSize}px`;
+            })
+            .call(wrapText);
+
+        // Function to wrap text within the cell
+        function wrapText(text) {
+            text.each(function () {
+                const node = d3.select(this);
+                const width = node.node().getComputedTextLength();
+                const cellWidth = parseFloat(node.attr('width'));
+
+                // Check if text needs to be broken into multiple lines
+                if (width > cellWidth) {
+                    const words = node.text().split(/\s+/).reverse();
+                    let line = [];
+                    let lineNumber = 0;
+                    const lineHeight = 1.1; // Adjust as needed
+
+                    let tspan = node.text(null).append('tspan').attr('x', 0).attr('y', 0);
+
+                    let word = words.pop();
+                    while (word) {
+                        line.push(word);
+                        tspan.text(line.join(' '));
+                        if (tspan.node().getComputedTextLength() > cellWidth) {
+                            line.pop();
+                            tspan.text(line.join(' '));
+                            line = [word];
+                            tspan.attr('dy', `${lineNumber * lineHeight}em`);
+                            tspan = addTspan(node, tspan, ++lineNumber, lineHeight);
+                        }
+                        word = words.pop();
+                    }
+                }
+            });
+        }
+
+        // Function to add tspan elements for multiline text
+        function addTspan(node, tspan, lineNumber, lineHeight) {
+            return node
+                .append('tspan')
+                .attr('x', 0)
+                .attr('y', `${lineNumber * lineHeight}em`)
+                .text(tspan.text());
+        }
 
         cells
             .on('mouseover', function (event, d) {
