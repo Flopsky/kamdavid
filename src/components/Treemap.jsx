@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState, useEffect, useRef } from 'react';
 import * as d3 from 'd3';
 
@@ -50,21 +49,23 @@ const InteractiveTreemap = ({ data }) => {
             .attr('alignment-baseline', 'central')
             .style('fill', '#ffffff')
             .text((d) => d.data.name)
-            .style('font-size', (d) => {
+            .each(function (d) {
+                const text = d3.select(this);
+                const textWidth = this.getBBox().width;
+                const textHeight = this.getBBox().height;
+
                 // Set a maximum font size
                 const maxFontSize = 16; // Adjust as needed
                 const baseSize = 16; // Adjust as needed
 
                 // Calculate a scale factor based on the cell size
-                const scaleFactor = Math.min((d.x1 - d.x0) / baseSize, (d.y1 - d.y0) / baseSize, 1);
+                const scaleFactor = Math.min((d.x1 - d.x0) / textWidth, (d.y1 - d.y0) / textHeight, 1);
 
                 // Scale down the font size based on the scaleFactor
                 const fontSize = maxFontSize * scaleFactor;
 
-                // Adjust the font size for small screens
-                const mobileFontSize = 5; // Adjust as needed
-
-                return `${width < 600 ? mobileFontSize : fontSize}px`;
+                // Ensure that the font size does not exceed a certain maximum value
+                text.style('font-size', `${Math.min(fontSize, maxFontSize)}px`);
             })
             .call(wrapText);
 
@@ -96,4 +97,3 @@ const InteractiveTreemap = ({ data }) => {
 };
 
 export default InteractiveTreemap;
-
