@@ -2696,7 +2696,7 @@ export function Component() {
                     </CardHeader>
                     <CardContent>
                         <p className="text-sm text-gray-300">
-                            This project goal is to provide dynamic dashboards on the state of stocks. It helps answer the question : should that hold or sell ? LLM, GCP, Pandas, Streamlit, Chart Js, Github
+                            This project goal is to provide dynamic dashboards on the state of stocks. It helps answer the question : should I hold or sell or buy ? LLM, GCP, Pandas, Streamlit, Chart Js, Github
                         </p>
                     </CardContent>
                 </Card>
