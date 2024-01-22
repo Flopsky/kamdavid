@@ -8,10 +8,7 @@ import InteractiveTreemap from '@/components/Treemap'
 export function Component() {
 
     const data = {
-       "name": "Root",
-    "children": [
-        {
-            "name": "Root",
+    "name": "Root",
     "children": [
         {
             "name": "AMD",
@@ -1076,7 +1073,7 @@ export function Component() {
             ]
         }
     ]
-    };
+}
 
 
 
