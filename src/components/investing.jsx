@@ -2615,7 +2615,7 @@ export function Component() {
                                 alt="David KAMGANG"
                                 className="w-24 h-24 rounded-full"
                                 height="100"
-                                src="https://scontent-cdg4-1.cdninstagram.com/v/t51.2885-19/340497162_165464846442044_6776839828837078728_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-cdg4-1.cdninstagram.com&_nc_cat=108&_nc_ohc=0vyWM3M5Hd0AX-J5__E&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AfADOurpqfP7tTVqSrZAtWnm3CIpnF_LbZwBnS1PWs7FHg&oe=65C1FA48&_nc_sid=ee9879"
+                                src="https://avatars.githubusercontent.com/u/75791840?v=4"
                                 style={{
                                     aspectRatio: "100/100",
                                     objectFit: "cover",
