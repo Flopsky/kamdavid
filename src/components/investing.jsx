@@ -2569,7 +2569,7 @@ export function Component() {
 
             <header
                 className="w-full flex flex-wrap justify-between items-center p-4 sticky top-0 bg-gray-900 z-50">
-                <h1 className="text-4xl font-bold">David KAMGANG  </h1>
+                <h1 className="text-4xl font-bold">David KAMGANG NINTCHEU </h1>
                 <nav className="flex flex-wrap gap-4">
                     <Link className="text-lg font-medium hover:underline" href="./">
                         <InfoIcon className="w-4 h-4 text-blue-500" />
