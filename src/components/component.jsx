@@ -64,7 +64,7 @@ export function Component() {
                   alt="David KAMGANG"
                   className="w-24 h-24 rounded-full"
                   height="100"
-                  src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYRwZoodMi6QSqQLpLLlvIrlX3AZmncXeI66kmAeKRCNMw263IHTKK5Fyt9FDgrr2PfKV7A5gQKB2cDIAtWaSkQnrwFfsA=w2160-h1337"
+                  src="https://avatars.githubusercontent.com/u/75791840?v=4"
                   style={{
                     aspectRatio: "100/100",
                     objectFit: "cover",
