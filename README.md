@@ -1,3 +1,1 @@
-# Flopsky.github.io
-This is the repo of my personal blog.
-Feel free to use it as a template.
+This repo is the front-end of my personal blog.
