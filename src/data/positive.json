@@ -2,11 +2,56 @@
     "name": "Root",
     "children": [
         {
+            "name": "360 DigiTech",
+            "children": [
+                {
+                    "name": "360 DigiTech",
+                    "value": 3
+                }
+            ]
+        },
+        {
+            "name": "3D Systems",
+            "children": [
+                {
+                    "name": "3D Systems",
+                    "value": 136
+                }
+            ]
+        },
+        {
+            "name": "A10 Networks",
+            "children": [
+                {
+                    "name": "A10 Networks",
+                    "value": 38
+                }
+            ]
+        },
+        {
+            "name": "ACI Worldwide",
+            "children": [
+                {
+                    "name": "ACI Worldwide",
+                    "value": 55
+                }
+            ]
+        },
+        {
+            "name": "ACM Research",
+            "children": [
+                {
+                    "name": "ACM Research",
+                    "value": 46
+                }
+            ]
+        },
+        {
             "name": "AMD",
             "children": [
                 {
                     "name": "AMD",
-                    "value": 124
+                    "value": 367
                 }
             ]
         },
@@ -15,7 +60,16 @@
             "children": [
                 {
                     "name": "AMEC",
-                    "value": 10
+                    "value": 12
+                }
+            ]
+        },
+        {
+            "name": "ANI Pharmaceuticals",
+            "children": [
+                {
+                    "name": "ANI Pharmaceuticals",
+                    "value": 18
                 }
             ]
         },
@@ -24,7 +78,7 @@
             "children": [
                 {
                     "name": "ASE Group",
-                    "value": 14
+                    "value": 27
                 }
             ]
         },
@@ -33,7 +87,16 @@
             "children": [
                 {
                     "name": "ASM International",
-                    "value": 15
+                    "value": 35
+                }
+            ]
+        },
+        {
+            "name": "ASM Pacific Technology",
+            "children": [
+                {
+                    "name": "ASM Pacific Technology",
+                    "value": 0
                 }
             ]
         },
@@ -42,7 +105,16 @@
             "children": [
                 {
                     "name": "ASML",
-                    "value": 55
+                    "value": 30
+                }
+            ]
+        },
+        {
+            "name": "AST SpaceMobile",
+            "children": [
+                {
+                    "name": "AST SpaceMobile",
+                    "value": 18
                 }
             ]
         },
@@ -51,7 +123,25 @@
             "children": [
                 {
                     "name": "ASUS",
-                    "value": 381
+                    "value": 370
+                }
+            ]
+        },
+        {
+            "name": "AT&amp;S Austria Technologie &amp; Systemtechnik",
+            "children": [
+                {
+                    "name": "AT&amp;S Austria Technologie &amp; Systemtechnik",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "name": "Acer",
+            "children": [
+                {
+                    "name": "Acer",
+                    "value": 164
                 }
             ]
         },
@@ -60,7 +150,7 @@
             "children": [
                 {
                     "name": "Adevinta",
-                    "value": 2
+                    "value": 5
                 }
             ]
         },
@@ -69,7 +159,7 @@
             "children": [
                 {
                     "name": "Adobe",
-                    "value": 179
+                    "value": 116
                 }
             ]
         },
@@ -78,7 +168,7 @@
             "children": [
                 {
                     "name": "Advantech",
-                    "value": 38
+                    "value": 41
                 }
             ]
         },
@@ -87,7 +177,7 @@
             "children": [
                 {
                     "name": "Advantest",
-                    "value": 18
+                    "value": 25
                 }
             ]
         },
@@ -96,7 +186,16 @@
             "children": [
                 {
                     "name": "Adyen",
-                    "value": 32
+                    "value": 49
+                }
+            ]
+        },
+        {
+            "name": "Agilysys",
+            "children": [
+                {
+                    "name": "Agilysys",
+                    "value": 12
                 }
             ]
         },
@@ -105,7 +204,16 @@
             "children": [
                 {
                     "name": "Airbnb",
-                    "value": 507
+                    "value": 261
+                }
+            ]
+        },
+        {
+            "name": "Aixtron",
+            "children": [
+                {
+                    "name": "Aixtron",
+                    "value": 45
                 }
             ]
         },
@@ -114,7 +222,7 @@
             "children": [
                 {
                     "name": "Akamai",
-                    "value": 159
+                    "value": 28
                 }
             ]
         },
@@ -123,7 +231,7 @@
             "children": [
                 {
                     "name": "Alchip Technologies",
-                    "value": 0
+                    "value": 13
                 }
             ]
         },
@@ -132,7 +240,25 @@
             "children": [
                 {
                     "name": "Alibaba",
-                    "value": 189
+                    "value": 149
+                }
+            ]
+        },
+        {
+            "name": "Alibaba Health Information Technology",
+            "children": [
+                {
+                    "name": "Alibaba Health Information Technology",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "name": "Alight",
+            "children": [
+                {
+                    "name": "Alight",
+                    "value": 6
                 }
             ]
         },
@@ -146,6 +272,24 @@
             ]
         },
         {
+            "name": "Alkami Technology",
+            "children": [
+                {
+                    "name": "Alkami Technology",
+                    "value": 8
+                }
+            ]
+        },
+        {
+            "name": "Allegro MicroSystems",
+            "children": [
+                {
+                    "name": "Allegro MicroSystems",
+                    "value": 15
+                }
+            ]
+        },
+        {
             "name": "Allegro.eu",
             "children": [
                 {
@@ -155,11 +299,38 @@
             ]
         },
         {
+            "name": "Allscripts",
+            "children": [
+                {
+                    "name": "Allscripts",
+                    "value": 17
+                }
+            ]
+        },
+        {
+            "name": "Altair Engineering",
+            "children": [
+                {
+                    "name": "Altair Engineering",
+                    "value": 44
+                }
+            ]
+        },
+        {
+            "name": "Alteryx",
+            "children": [
+                {
+                    "name": "Alteryx",
+                    "value": 20
+                }
+            ]
+        },
+        {
             "name": "Amadeus IT Group",
             "children": [
                 {
                     "name": "Amadeus IT Group",
-                    "value": 65
+                    "value": 8
                 }
             ]
         },
@@ -168,7 +339,16 @@
             "children": [
                 {
                     "name": "Amazon",
-                    "value": 341
+                    "value": 354
+                }
+            ]
+        },
+        {
+            "name": "Ambarella",
+            "children": [
+                {
+                    "name": "Ambarella",
+                    "value": 10
                 }
             ]
         },
@@ -177,7 +357,16 @@
             "children": [
                 {
                     "name": "Amdocs",
-                    "value": 3
+                    "value": 36
+                }
+            ]
+        },
+        {
+            "name": "Amplitude",
+            "children": [
+                {
+                    "name": "Amplitude",
+                    "value": 0
                 }
             ]
         },
@@ -186,7 +375,7 @@
             "children": [
                 {
                     "name": "Analog Devices",
-                    "value": 153
+                    "value": 51
                 }
             ]
         },
@@ -195,7 +384,7 @@
             "children": [
                 {
                     "name": "Ansys",
-                    "value": 31
+                    "value": 47
                 }
             ]
         },
@@ -204,7 +393,16 @@
             "children": [
                 {
                     "name": "AppLovin",
-                    "value": 13
+                    "value": 51
+                }
+            ]
+        },
+        {
+            "name": "Appian",
+            "children": [
+                {
+                    "name": "Appian",
+                    "value": 5
                 }
             ]
         },
@@ -213,7 +411,7 @@
             "children": [
                 {
                     "name": "Apple",
-                    "value": 123
+                    "value": 183
                 }
             ]
         },
@@ -222,7 +420,7 @@
             "children": [
                 {
                     "name": "Applied Materials",
-                    "value": 58
+                    "value": 76
                 }
             ]
         },
@@ -231,7 +429,16 @@
             "children": [
                 {
                     "name": "Arista Networks",
-                    "value": 77
+                    "value": 106
+                }
+            ]
+        },
+        {
+            "name": "Arlo Technologies",
+            "children": [
+                {
+                    "name": "Arlo Technologies",
+                    "value": 3
                 }
             ]
         },
@@ -240,7 +447,16 @@
             "children": [
                 {
                     "name": "Arm Holdings",
-                    "value": 30
+                    "value": 79
+                }
+            ]
+        },
+        {
+            "name": "Asana",
+            "children": [
+                {
+                    "name": "Asana",
+                    "value": 20
                 }
             ]
         },
@@ -249,7 +465,16 @@
             "children": [
                 {
                     "name": "AspenTech",
-                    "value": 41
+                    "value": 12
+                }
+            ]
+        },
+        {
+            "name": "Asseco",
+            "children": [
+                {
+                    "name": "Asseco",
+                    "value": 0
                 }
             ]
         },
@@ -258,7 +483,25 @@
             "children": [
                 {
                     "name": "Atlassian",
-                    "value": 321
+                    "value": 51
+                }
+            ]
+        },
+        {
+            "name": "Atoss",
+            "children": [
+                {
+                    "name": "Atoss",
+                    "value": 51
+                }
+            ]
+        },
+        {
+            "name": "Aurora Innovation",
+            "children": [
+                {
+                    "name": "Aurora Innovation",
+                    "value": 69
                 }
             ]
         },
@@ -267,7 +510,16 @@
             "children": [
                 {
                     "name": "Autodesk",
-                    "value": 58
+                    "value": 142
+                }
+            ]
+        },
+        {
+            "name": "Autohome",
+            "children": [
+                {
+                    "name": "Autohome",
+                    "value": 11
                 }
             ]
         },
@@ -276,7 +528,43 @@
             "children": [
                 {
                     "name": "Automatic Data Processing",
-                    "value": 177
+                    "value": 69
+                }
+            ]
+        },
+        {
+            "name": "AvePoint",
+            "children": [
+                {
+                    "name": "AvePoint",
+                    "value": 2
+                }
+            ]
+        },
+        {
+            "name": "Avid Technology",
+            "children": [
+                {
+                    "name": "Avid Technology",
+                    "value": 40
+                }
+            ]
+        },
+        {
+            "name": "AvidXchange",
+            "children": [
+                {
+                    "name": "AvidXchange",
+                    "value": 18
+                }
+            ]
+        },
+        {
+            "name": "Axcelis Technologies",
+            "children": [
+                {
+                    "name": "Axcelis Technologies",
+                    "value": 103
                 }
             ]
         },
@@ -285,7 +573,7 @@
             "children": [
                 {
                     "name": "BE Semiconductor",
-                    "value": 189
+                    "value": 57
                 }
             ]
         },
@@ -294,7 +582,7 @@
             "children": [
                 {
                     "name": "Baidu",
-                    "value": 285
+                    "value": 124
                 }
             ]
         },
@@ -303,7 +591,16 @@
             "children": [
                 {
                     "name": "Bandai Namco",
-                    "value": 302
+                    "value": 77
+                }
+            ]
+        },
+        {
+            "name": "Bayanat AI",
+            "children": [
+                {
+                    "name": "Bayanat AI",
+                    "value": 0
                 }
             ]
         },
@@ -312,7 +609,52 @@
             "children": [
                 {
                     "name": "Bentley Systems",
-                    "value": 20
+                    "value": 44
+                }
+            ]
+        },
+        {
+            "name": "Bilibili",
+            "children": [
+                {
+                    "name": "Bilibili",
+                    "value": 7
+                }
+            ]
+        },
+        {
+            "name": "Bitfarms",
+            "children": [
+                {
+                    "name": "Bitfarms",
+                    "value": 29
+                }
+            ]
+        },
+        {
+            "name": "BlackBerry",
+            "children": [
+                {
+                    "name": "BlackBerry",
+                    "value": 89
+                }
+            ]
+        },
+        {
+            "name": "BlackLine",
+            "children": [
+                {
+                    "name": "BlackLine",
+                    "value": 14
+                }
+            ]
+        },
+        {
+            "name": "Blackbaud",
+            "children": [
+                {
+                    "name": "Blackbaud",
+                    "value": 37
                 }
             ]
         },
@@ -321,7 +663,7 @@
             "children": [
                 {
                     "name": "Block",
-                    "value": 17
+                    "value": 29
                 }
             ]
         },
@@ -330,7 +672,25 @@
             "children": [
                 {
                     "name": "Booking.com",
-                    "value": 21
+                    "value": 11
+                }
+            ]
+        },
+        {
+            "name": "Box",
+            "children": [
+                {
+                    "name": "Box",
+                    "value": 3
+                }
+            ]
+        },
+        {
+            "name": "Braze",
+            "children": [
+                {
+                    "name": "Braze",
+                    "value": 4
                 }
             ]
         },
@@ -339,7 +699,70 @@
             "children": [
                 {
                     "name": "Broadcom",
-                    "value": 131
+                    "value": 73
+                }
+            ]
+        },
+        {
+            "name": "Bukalapak.com",
+            "children": [
+                {
+                    "name": "Bukalapak.com",
+                    "value": 11
+                }
+            ]
+        },
+        {
+            "name": "Bumble",
+            "children": [
+                {
+                    "name": "Bumble",
+                    "value": 89
+                }
+            ]
+        },
+        {
+            "name": "Bytes Technology",
+            "children": [
+                {
+                    "name": "Bytes Technology",
+                    "value": 75
+                }
+            ]
+        },
+        {
+            "name": "C3 AI",
+            "children": [
+                {
+                    "name": "C3 AI",
+                    "value": 83
+                }
+            ]
+        },
+        {
+            "name": "CCC Intelligent Solutions",
+            "children": [
+                {
+                    "name": "CCC Intelligent Solutions",
+                    "value": 6
+                }
+            ]
+        },
+        {
+            "name": "CD Projekt",
+            "children": [
+                {
+                    "name": "CD Projekt",
+                    "value": 22
+                }
+            ]
+        },
+        {
+            "name": "CSG International",
+            "children": [
+                {
+                    "name": "CSG International",
+                    "value": 36
                 }
             ]
         },
@@ -348,7 +771,16 @@
             "children": [
                 {
                     "name": "Cadence Design Systems",
-                    "value": 14
+                    "value": 45
+                }
+            ]
+        },
+        {
+            "name": "Calix",
+            "children": [
+                {
+                    "name": "Calix",
+                    "value": 26
                 }
             ]
         },
@@ -357,7 +789,25 @@
             "children": [
                 {
                     "name": "Canon",
-                    "value": 36
+                    "value": 65
+                }
+            ]
+        },
+        {
+            "name": "Carsales",
+            "children": [
+                {
+                    "name": "Carsales",
+                    "value": 115
+                }
+            ]
+        },
+        {
+            "name": "Cellebrite",
+            "children": [
+                {
+                    "name": "Cellebrite",
+                    "value": 7
                 }
             ]
         },
@@ -366,7 +816,16 @@
             "children": [
                 {
                     "name": "Ceridian",
-                    "value": 5
+                    "value": 9
+                }
+            ]
+        },
+        {
+            "name": "Certara",
+            "children": [
+                {
+                    "name": "Certara",
+                    "value": 15
                 }
             ]
         },
@@ -375,7 +834,16 @@
             "children": [
                 {
                     "name": "Check Point Software",
-                    "value": 26
+                    "value": 72
+                }
+            ]
+        },
+        {
+            "name": "Chegg",
+            "children": [
+                {
+                    "name": "Chegg",
+                    "value": 20
                 }
             ]
         },
@@ -384,7 +852,43 @@
             "children": [
                 {
                     "name": "Chewy",
-                    "value": 35
+                    "value": 15
+                }
+            ]
+        },
+        {
+            "name": "Chindata",
+            "children": [
+                {
+                    "name": "Chindata",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "name": "ChipMOS Technologies",
+            "children": [
+                {
+                    "name": "ChipMOS Technologies",
+                    "value": 4
+                }
+            ]
+        },
+        {
+            "name": "Cimpress",
+            "children": [
+                {
+                    "name": "Cimpress",
+                    "value": 4
+                }
+            ]
+        },
+        {
+            "name": "Cirrus Logic",
+            "children": [
+                {
+                    "name": "Cirrus Logic",
+                    "value": 19
                 }
             ]
         },
@@ -393,7 +897,34 @@
             "children": [
                 {
                     "name": "Cisco",
-                    "value": 405
+                    "value": 123
+                }
+            ]
+        },
+        {
+            "name": "Clarivate",
+            "children": [
+                {
+                    "name": "Clarivate",
+                    "value": 36
+                }
+            ]
+        },
+        {
+            "name": "CleanSpark",
+            "children": [
+                {
+                    "name": "CleanSpark",
+                    "value": 35
+                }
+            ]
+        },
+        {
+            "name": "Clearwater Analytics",
+            "children": [
+                {
+                    "name": "Clearwater Analytics",
+                    "value": 12
                 }
             ]
         },
@@ -402,7 +933,7 @@
             "children": [
                 {
                     "name": "Cloudflare",
-                    "value": 14
+                    "value": 22
                 }
             ]
         },
@@ -411,7 +942,25 @@
             "children": [
                 {
                     "name": "CoStar Group",
-                    "value": 90
+                    "value": 119
+                }
+            ]
+        },
+        {
+            "name": "Coherent",
+            "children": [
+                {
+                    "name": "Coherent",
+                    "value": 14
+                }
+            ]
+        },
+        {
+            "name": "Cohu",
+            "children": [
+                {
+                    "name": "Cohu",
+                    "value": 13
                 }
             ]
         },
@@ -420,7 +969,34 @@
             "children": [
                 {
                     "name": "Coinbase",
-                    "value": 286
+                    "value": 168
+                }
+            ]
+        },
+        {
+            "name": "Commvault",
+            "children": [
+                {
+                    "name": "Commvault",
+                    "value": 22
+                }
+            ]
+        },
+        {
+            "name": "Compass",
+            "children": [
+                {
+                    "name": "Compass",
+                    "value": 71
+                }
+            ]
+        },
+        {
+            "name": "CompuGroup Medical",
+            "children": [
+                {
+                    "name": "CompuGroup Medical",
+                    "value": 11
                 }
             ]
         },
@@ -429,7 +1005,7 @@
             "children": [
                 {
                     "name": "Confluent",
-                    "value": 67
+                    "value": 31
                 }
             ]
         },
@@ -438,7 +1014,25 @@
             "children": [
                 {
                     "name": "Constellation Software",
-                    "value": 111
+                    "value": 66
+                }
+            ]
+        },
+        {
+            "name": "Corsair Gaming",
+            "children": [
+                {
+                    "name": "Corsair Gaming",
+                    "value": 58
+                }
+            ]
+        },
+        {
+            "name": "Couchbase",
+            "children": [
+                {
+                    "name": "Couchbase",
+                    "value": 7
                 }
             ]
         },
@@ -447,7 +1041,34 @@
             "children": [
                 {
                     "name": "Coupang",
-                    "value": 43
+                    "value": 50
+                }
+            ]
+        },
+        {
+            "name": "Coursera",
+            "children": [
+                {
+                    "name": "Coursera",
+                    "value": 32
+                }
+            ]
+        },
+        {
+            "name": "Credo Technology",
+            "children": [
+                {
+                    "name": "Credo Technology",
+                    "value": 2
+                }
+            ]
+        },
+        {
+            "name": "Criteo",
+            "children": [
+                {
+                    "name": "Criteo",
+                    "value": 29
                 }
             ]
         },
@@ -456,7 +1077,16 @@
             "children": [
                 {
                     "name": "CrowdStrike",
-                    "value": 41
+                    "value": 102
+                }
+            ]
+        },
+        {
+            "name": "CyberAgent",
+            "children": [
+                {
+                    "name": "CyberAgent",
+                    "value": 15
                 }
             ]
         },
@@ -465,7 +1095,16 @@
             "children": [
                 {
                     "name": "CyberArk",
-                    "value": 26
+                    "value": 83
+                }
+            ]
+        },
+        {
+            "name": "Darktrace",
+            "children": [
+                {
+                    "name": "Darktrace",
+                    "value": 29
                 }
             ]
         },
@@ -474,7 +1113,7 @@
             "children": [
                 {
                     "name": "Dassault Syst\u00e8mes",
-                    "value": 60
+                    "value": 65
                 }
             ]
         },
@@ -483,7 +1122,16 @@
             "children": [
                 {
                     "name": "Datadog",
-                    "value": 54
+                    "value": 18
+                }
+            ]
+        },
+        {
+            "name": "DeNA",
+            "children": [
+                {
+                    "name": "DeNA",
+                    "value": 558
                 }
             ]
         },
@@ -492,7 +1140,7 @@
             "children": [
                 {
                     "name": "Delivery Hero",
-                    "value": 22
+                    "value": 25
                 }
             ]
         },
@@ -501,7 +1149,7 @@
             "children": [
                 {
                     "name": "Dell",
-                    "value": 78
+                    "value": 0
                 }
             ]
         },
@@ -510,7 +1158,7 @@
             "children": [
                 {
                     "name": "Delta Electronics",
-                    "value": 41
+                    "value": 31
                 }
             ]
         },
@@ -519,7 +1167,16 @@
             "children": [
                 {
                     "name": "Delta Electronics",
-                    "value": 48
+                    "value": 31
+                }
+            ]
+        },
+        {
+            "name": "Descartes Systems",
+            "children": [
+                {
+                    "name": "Descartes Systems",
+                    "value": 19
                 }
             ]
         },
@@ -533,6 +1190,33 @@
             ]
         },
         {
+            "name": "Diebold Nixdorf",
+            "children": [
+                {
+                    "name": "Diebold Nixdorf",
+                    "value": 27
+                }
+            ]
+        },
+        {
+            "name": "Digi International",
+            "children": [
+                {
+                    "name": "Digi International",
+                    "value": 44
+                }
+            ]
+        },
+        {
+            "name": "DigitalOcean",
+            "children": [
+                {
+                    "name": "DigitalOcean",
+                    "value": 13
+                }
+            ]
+        },
+        {
             "name": "Disco Corp.",
             "children": [
                 {
@@ -542,11 +1226,29 @@
             ]
         },
         {
+            "name": "Docebo",
+            "children": [
+                {
+                    "name": "Docebo",
+                    "value": 15
+                }
+            ]
+        },
+        {
             "name": "DocuSign",
             "children": [
                 {
                     "name": "DocuSign",
-                    "value": 46
+                    "value": 37
+                }
+            ]
+        },
+        {
+            "name": "Donnelley Financial Solutions",
+            "children": [
+                {
+                    "name": "Donnelley Financial Solutions",
+                    "value": 10
                 }
             ]
         },
@@ -555,7 +1257,25 @@
             "children": [
                 {
                     "name": "DoorDash",
-                    "value": 41
+                    "value": 59
+                }
+            ]
+        },
+        {
+            "name": "DoubleVerify",
+            "children": [
+                {
+                    "name": "DoubleVerify",
+                    "value": 19
+                }
+            ]
+        },
+        {
+            "name": "Doximity",
+            "children": [
+                {
+                    "name": "Doximity",
+                    "value": 0
                 }
             ]
         },
@@ -564,7 +1284,7 @@
             "children": [
                 {
                     "name": "Dropbox",
-                    "value": 11
+                    "value": 18
                 }
             ]
         },
@@ -573,7 +1293,16 @@
             "children": [
                 {
                     "name": "Dynatrace",
-                    "value": 34
+                    "value": 8
+                }
+            ]
+        },
+        {
+            "name": "E2open",
+            "children": [
+                {
+                    "name": "E2open",
+                    "value": 2
                 }
             ]
         },
@@ -582,7 +1311,16 @@
             "children": [
                 {
                     "name": "EPAM Systems",
-                    "value": 10
+                    "value": 28
+                }
+            ]
+        },
+        {
+            "name": "EaseMyTrip",
+            "children": [
+                {
+                    "name": "EaseMyTrip",
+                    "value": 26
                 }
             ]
         },
@@ -591,7 +1329,7 @@
             "children": [
                 {
                     "name": "Elastic NV",
-                    "value": 10
+                    "value": 16
                 }
             ]
         },
@@ -600,7 +1338,43 @@
             "children": [
                 {
                     "name": "Electronic Arts",
-                    "value": 39
+                    "value": 94
+                }
+            ]
+        },
+        {
+            "name": "Embracer Group",
+            "children": [
+                {
+                    "name": "Embracer Group",
+                    "value": 28
+                }
+            ]
+        },
+        {
+            "name": "Endava",
+            "children": [
+                {
+                    "name": "Endava",
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "name": "EngageSmart",
+            "children": [
+                {
+                    "name": "EngageSmart",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "name": "Enghouse Systems",
+            "children": [
+                {
+                    "name": "Enghouse Systems",
+                    "value": 14
                 }
             ]
         },
@@ -609,7 +1383,16 @@
             "children": [
                 {
                     "name": "Enphase Energy",
-                    "value": 39
+                    "value": 140
+                }
+            ]
+        },
+        {
+            "name": "Entain",
+            "children": [
+                {
+                    "name": "Entain",
+                    "value": 36
                 }
             ]
         },
@@ -623,11 +1406,20 @@
             ]
         },
         {
+            "name": "Envestnet",
+            "children": [
+                {
+                    "name": "Envestnet",
+                    "value": 13
+                }
+            ]
+        },
+        {
             "name": "Equinix",
             "children": [
                 {
                     "name": "Equinix",
-                    "value": 47
+                    "value": 8
                 }
             ]
         },
@@ -636,7 +1428,7 @@
             "children": [
                 {
                     "name": "Ericsson",
-                    "value": 15
+                    "value": 169
                 }
             ]
         },
@@ -645,7 +1437,34 @@
             "children": [
                 {
                     "name": "Etsy",
-                    "value": 78
+                    "value": 40
+                }
+            ]
+        },
+        {
+            "name": "EverCommerce",
+            "children": [
+                {
+                    "name": "EverCommerce",
+                    "value": 6
+                }
+            ]
+        },
+        {
+            "name": "Everbridge",
+            "children": [
+                {
+                    "name": "Everbridge",
+                    "value": 12
+                }
+            ]
+        },
+        {
+            "name": "Exclusive Networks",
+            "children": [
+                {
+                    "name": "Exclusive Networks",
+                    "value": 12
                 }
             ]
         },
@@ -654,7 +1473,7 @@
             "children": [
                 {
                     "name": "Expedia Group",
-                    "value": 43
+                    "value": 18
                 }
             ]
         },
@@ -663,7 +1482,7 @@
             "children": [
                 {
                     "name": "F5 Networks",
-                    "value": 39
+                    "value": 47
                 }
             ]
         },
@@ -672,7 +1491,7 @@
             "children": [
                 {
                     "name": "FICO",
-                    "value": 43
+                    "value": 13
                 }
             ]
         },
@@ -681,7 +1500,16 @@
             "children": [
                 {
                     "name": "FactSet",
-                    "value": 39
+                    "value": 61
+                }
+            ]
+        },
+        {
+            "name": "Fastly",
+            "children": [
+                {
+                    "name": "Fastly",
+                    "value": 2
                 }
             ]
         },
@@ -690,7 +1518,7 @@
             "children": [
                 {
                     "name": "Fidelity National Information Services",
-                    "value": 16
+                    "value": 27
                 }
             ]
         },
@@ -699,7 +1527,52 @@
             "children": [
                 {
                     "name": "Fiserv",
-                    "value": 16
+                    "value": 53
+                }
+            ]
+        },
+        {
+            "name": "Five9",
+            "children": [
+                {
+                    "name": "Five9",
+                    "value": 47
+                }
+            ]
+        },
+        {
+            "name": "Fiverr",
+            "children": [
+                {
+                    "name": "Fiverr",
+                    "value": 27
+                }
+            ]
+        },
+        {
+            "name": "Flywire",
+            "children": [
+                {
+                    "name": "Flywire",
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "name": "FormFactor",
+            "children": [
+                {
+                    "name": "FormFactor",
+                    "value": 17
+                }
+            ]
+        },
+        {
+            "name": "Formosa Sumco Technology",
+            "children": [
+                {
+                    "name": "Formosa Sumco Technology",
+                    "value": 0
                 }
             ]
         },
@@ -708,7 +1581,16 @@
             "children": [
                 {
                     "name": "Fortinet",
-                    "value": 96
+                    "value": 105
+                }
+            ]
+        },
+        {
+            "name": "Freshworks",
+            "children": [
+                {
+                    "name": "Freshworks",
+                    "value": 42
                 }
             ]
         },
@@ -717,7 +1599,7 @@
             "children": [
                 {
                     "name": "Futu Holdings",
-                    "value": 9
+                    "value": 26
                 }
             ]
         },
@@ -726,7 +1608,7 @@
             "children": [
                 {
                     "name": "Garena",
-                    "value": 172
+                    "value": 171
                 }
             ]
         },
@@ -735,7 +1617,7 @@
             "children": [
                 {
                     "name": "Garmin",
-                    "value": 372
+                    "value": 159
                 }
             ]
         },
@@ -744,7 +1626,34 @@
             "children": [
                 {
                     "name": "Gen Digital",
-                    "value": 56
+                    "value": 53
+                }
+            ]
+        },
+        {
+            "name": "Genius Sports",
+            "children": [
+                {
+                    "name": "Genius Sports",
+                    "value": 26
+                }
+            ]
+        },
+        {
+            "name": "Genpact",
+            "children": [
+                {
+                    "name": "Genpact",
+                    "value": 39
+                }
+            ]
+        },
+        {
+            "name": "Getty Images",
+            "children": [
+                {
+                    "name": "Getty Images",
+                    "value": 0
                 }
             ]
         },
@@ -753,7 +1662,7 @@
             "children": [
                 {
                     "name": "GitLab",
-                    "value": 11
+                    "value": 10
                 }
             ]
         },
@@ -762,7 +1671,7 @@
             "children": [
                 {
                     "name": "Global Payments",
-                    "value": 172
+                    "value": 59
                 }
             ]
         },
@@ -771,7 +1680,16 @@
             "children": [
                 {
                     "name": "Global Unichip Corp.",
-                    "value": 0
+                    "value": 5
+                }
+            ]
+        },
+        {
+            "name": "Global-e",
+            "children": [
+                {
+                    "name": "Global-e",
+                    "value": 43
                 }
             ]
         },
@@ -780,7 +1698,7 @@
             "children": [
                 {
                     "name": "GlobalFoundries",
-                    "value": 18
+                    "value": 4
                 }
             ]
         },
@@ -789,7 +1707,7 @@
             "children": [
                 {
                     "name": "GlobalWafers",
-                    "value": 0
+                    "value": 3
                 }
             ]
         },
@@ -798,7 +1716,7 @@
             "children": [
                 {
                     "name": "Globant",
-                    "value": 3
+                    "value": 40
                 }
             ]
         },
@@ -807,7 +1725,16 @@
             "children": [
                 {
                     "name": "GoDaddy",
-                    "value": 23
+                    "value": 104
+                }
+            ]
+        },
+        {
+            "name": "GoTo",
+            "children": [
+                {
+                    "name": "GoTo",
+                    "value": 7
                 }
             ]
         },
@@ -816,7 +1743,7 @@
             "children": [
                 {
                     "name": "Google",
-                    "value": 67
+                    "value": 133
                 }
             ]
         },
@@ -825,7 +1752,34 @@
             "children": [
                 {
                     "name": "Grab Holdings",
-                    "value": 24
+                    "value": 7
+                }
+            ]
+        },
+        {
+            "name": "Grid Dynamics",
+            "children": [
+                {
+                    "name": "Grid Dynamics",
+                    "value": 75
+                }
+            ]
+        },
+        {
+            "name": "Grindr",
+            "children": [
+                {
+                    "name": "Grindr",
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "name": "GungHo Online Entertainment",
+            "children": [
+                {
+                    "name": "GungHo Online Entertainment",
+                    "value": 0
                 }
             ]
         },
@@ -834,7 +1788,43 @@
             "children": [
                 {
                     "name": "HP",
-                    "value": 123
+                    "value": 51
+                }
+            ]
+        },
+        {
+            "name": "Harmonic",
+            "children": [
+                {
+                    "name": "Harmonic",
+                    "value": 12
+                }
+            ]
+        },
+        {
+            "name": "HashiCorp",
+            "children": [
+                {
+                    "name": "HashiCorp",
+                    "value": 23
+                }
+            ]
+        },
+        {
+            "name": "HelloFresh",
+            "children": [
+                {
+                    "name": "HelloFresh",
+                    "value": 13
+                }
+            ]
+        },
+        {
+            "name": "Hesai Group",
+            "children": [
+                {
+                    "name": "Hesai Group",
+                    "value": 0
                 }
             ]
         },
@@ -843,7 +1833,34 @@
             "children": [
                 {
                     "name": "Hewlett Packard Enterprise",
-                    "value": 60
+                    "value": 74
+                }
+            ]
+        },
+        {
+            "name": "Himax",
+            "children": [
+                {
+                    "name": "Himax",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "name": "Hims &amp; Hers Health",
+            "children": [
+                {
+                    "name": "Hims &amp; Hers Health",
+                    "value": 304
+                }
+            ]
+        },
+        {
+            "name": "Hisense Visual Technology",
+            "children": [
+                {
+                    "name": "Hisense Visual Technology",
+                    "value": 13
                 }
             ]
         },
@@ -852,7 +1869,7 @@
             "children": [
                 {
                     "name": "Hon Hai Precision Industry",
-                    "value": 30
+                    "value": 146
                 }
             ]
         },
@@ -861,7 +1878,34 @@
             "children": [
                 {
                     "name": "HubSpot",
-                    "value": 74
+                    "value": 78
+                }
+            ]
+        },
+        {
+            "name": "Hut 8 Mining",
+            "children": [
+                {
+                    "name": "Hut 8 Mining",
+                    "value": 47
+                }
+            ]
+        },
+        {
+            "name": "Huya",
+            "children": [
+                {
+                    "name": "Huya",
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "name": "Hypoport",
+            "children": [
+                {
+                    "name": "Hypoport",
+                    "value": 50
                 }
             ]
         },
@@ -870,7 +1914,16 @@
             "children": [
                 {
                     "name": "IBM",
-                    "value": 253
+                    "value": 248
+                }
+            ]
+        },
+        {
+            "name": "IONOS Group",
+            "children": [
+                {
+                    "name": "IONOS Group",
+                    "value": 0
                 }
             ]
         },
@@ -879,7 +1932,34 @@
             "children": [
                 {
                     "name": "IQVIA",
-                    "value": 158
+                    "value": 79
+                }
+            ]
+        },
+        {
+            "name": "Ichor Systems",
+            "children": [
+                {
+                    "name": "Ichor Systems",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "name": "Impinj",
+            "children": [
+                {
+                    "name": "Impinj",
+                    "value": 6
+                }
+            ]
+        },
+        {
+            "name": "IndiaMART",
+            "children": [
+                {
+                    "name": "IndiaMART",
+                    "value": 38
                 }
             ]
         },
@@ -888,7 +1968,7 @@
             "children": [
                 {
                     "name": "Infineon",
-                    "value": 55
+                    "value": 86
                 }
             ]
         },
@@ -897,7 +1977,34 @@
             "children": [
                 {
                     "name": "Informatica",
-                    "value": 51
+                    "value": 45
+                }
+            ]
+        },
+        {
+            "name": "Instacart",
+            "children": [
+                {
+                    "name": "Instacart",
+                    "value": 61
+                }
+            ]
+        },
+        {
+            "name": "Instructure Holdings",
+            "children": [
+                {
+                    "name": "Instructure Holdings",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "name": "Intapp",
+            "children": [
+                {
+                    "name": "Intapp",
+                    "value": 17
                 }
             ]
         },
@@ -906,7 +2013,16 @@
             "children": [
                 {
                     "name": "Intel",
-                    "value": 300
+                    "value": 130
+                }
+            ]
+        },
+        {
+            "name": "InterDigital",
+            "children": [
+                {
+                    "name": "InterDigital",
+                    "value": 84
                 }
             ]
         },
@@ -915,7 +2031,16 @@
             "children": [
                 {
                     "name": "Intuit",
-                    "value": 54
+                    "value": 62
+                }
+            ]
+        },
+        {
+            "name": "IonQ",
+            "children": [
+                {
+                    "name": "IonQ",
+                    "value": 20
                 }
             ]
         },
@@ -924,7 +2049,16 @@
             "children": [
                 {
                     "name": "JD Health",
-                    "value": 22
+                    "value": 13
+                }
+            ]
+        },
+        {
+            "name": "JOYY",
+            "children": [
+                {
+                    "name": "JOYY",
+                    "value": 13
                 }
             ]
         },
@@ -933,7 +2067,25 @@
             "children": [
                 {
                     "name": "Jack Henry &amp; Associates",
-                    "value": 237
+                    "value": 411
+                }
+            ]
+        },
+        {
+            "name": "Jamf",
+            "children": [
+                {
+                    "name": "Jamf",
+                    "value": 3
+                }
+            ]
+        },
+        {
+            "name": "Jfrog",
+            "children": [
+                {
+                    "name": "Jfrog",
+                    "value": 17
                 }
             ]
         },
@@ -942,7 +2094,16 @@
             "children": [
                 {
                     "name": "Jingdong Mall",
-                    "value": 0
+                    "value": 3
+                }
+            ]
+        },
+        {
+            "name": "Jubilant FoodWorks",
+            "children": [
+                {
+                    "name": "Jubilant FoodWorks",
+                    "value": 10
                 }
             ]
         },
@@ -951,7 +2112,25 @@
             "children": [
                 {
                     "name": "Juniper Networks",
-                    "value": 85
+                    "value": 59
+                }
+            ]
+        },
+        {
+            "name": "Just Eat Takeaway",
+            "children": [
+                {
+                    "name": "Just Eat Takeaway",
+                    "value": 38
+                }
+            ]
+        },
+        {
+            "name": "KFin Technologies",
+            "children": [
+                {
+                    "name": "KFin Technologies",
+                    "value": 0
                 }
             ]
         },
@@ -960,7 +2139,25 @@
             "children": [
                 {
                     "name": "KLA",
-                    "value": 62
+                    "value": 14
+                }
+            ]
+        },
+        {
+            "name": "KPIT Technologies",
+            "children": [
+                {
+                    "name": "KPIT Technologies",
+                    "value": 15
+                }
+            ]
+        },
+        {
+            "name": "Kainos Group",
+            "children": [
+                {
+                    "name": "Kainos Group",
+                    "value": 14
                 }
             ]
         },
@@ -969,7 +2166,25 @@
             "children": [
                 {
                     "name": "Kakao",
-                    "value": 131
+                    "value": 28
+                }
+            ]
+        },
+        {
+            "name": "Kakao Pay",
+            "children": [
+                {
+                    "name": "Kakao Pay",
+                    "value": 11
+                }
+            ]
+        },
+        {
+            "name": "Karooooo",
+            "children": [
+                {
+                    "name": "Karooooo",
+                    "value": 5
                 }
             ]
         },
@@ -978,7 +2193,7 @@
             "children": [
                 {
                     "name": "Kaspi.kz Joint Stock Company",
-                    "value": 16
+                    "value": 15
                 }
             ]
         },
@@ -987,7 +2202,7 @@
             "children": [
                 {
                     "name": "Keyence",
-                    "value": 10
+                    "value": 3
                 }
             ]
         },
@@ -996,7 +2211,25 @@
             "children": [
                 {
                     "name": "Keysight",
-                    "value": 47
+                    "value": 89
+                }
+            ]
+        },
+        {
+            "name": "Kinaxis",
+            "children": [
+                {
+                    "name": "Kinaxis",
+                    "value": 6
+                }
+            ]
+        },
+        {
+            "name": "Kingsoft",
+            "children": [
+                {
+                    "name": "Kingsoft",
+                    "value": 4
                 }
             ]
         },
@@ -1005,7 +2238,34 @@
             "children": [
                 {
                     "name": "Klaviyo",
-                    "value": 40
+                    "value": 16
+                }
+            ]
+        },
+        {
+            "name": "Konami Holdings",
+            "children": [
+                {
+                    "name": "Konami Holdings",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "name": "Kontron AG",
+            "children": [
+                {
+                    "name": "Kontron AG",
+                    "value": 26
+                }
+            ]
+        },
+        {
+            "name": "Krafton",
+            "children": [
+                {
+                    "name": "Krafton",
+                    "value": 46
                 }
             ]
         },
@@ -1014,7 +2274,16 @@
             "children": [
                 {
                     "name": "Kuaishou Technology",
-                    "value": 3
+                    "value": 18
+                }
+            ]
+        },
+        {
+            "name": "Kulicke and Soffa Industries",
+            "children": [
+                {
+                    "name": "Kulicke and Soffa Industries",
+                    "value": 34
                 }
             ]
         },
@@ -1023,7 +2292,7 @@
             "children": [
                 {
                     "name": "LG Electronics",
-                    "value": 173
+                    "value": 47
                 }
             ]
         },
@@ -1032,7 +2301,7 @@
             "children": [
                 {
                     "name": "Lam Research",
-                    "value": 15
+                    "value": 25
                 }
             ]
         },
@@ -1041,7 +2310,7 @@
             "children": [
                 {
                     "name": "Lasertec",
-                    "value": 3
+                    "value": 0
                 }
             ]
         },
@@ -1050,7 +2319,16 @@
             "children": [
                 {
                     "name": "Lattice Semiconductor",
-                    "value": 23
+                    "value": 62
+                }
+            ]
+        },
+        {
+            "name": "LegalZoom",
+            "children": [
+                {
+                    "name": "LegalZoom",
+                    "value": 28
                 }
             ]
         },
@@ -1059,7 +2337,25 @@
             "children": [
                 {
                     "name": "Leidos",
-                    "value": 325
+                    "value": 54
+                }
+            ]
+        },
+        {
+            "name": "Lemonade",
+            "children": [
+                {
+                    "name": "Lemonade",
+                    "value": 14
+                }
+            ]
+        },
+        {
+            "name": "LendingClub",
+            "children": [
+                {
+                    "name": "LendingClub",
+                    "value": 35
                 }
             ]
         },
@@ -1068,7 +2364,43 @@
             "children": [
                 {
                     "name": "Lenovo",
-                    "value": 228
+                    "value": 288
+                }
+            ]
+        },
+        {
+            "name": "LifeStance Health Group",
+            "children": [
+                {
+                    "name": "LifeStance Health Group",
+                    "value": 2
+                }
+            ]
+        },
+        {
+            "name": "Lightspeed POS",
+            "children": [
+                {
+                    "name": "Lightspeed POS",
+                    "value": 47
+                }
+            ]
+        },
+        {
+            "name": "LiveChat Software",
+            "children": [
+                {
+                    "name": "LiveChat Software",
+                    "value": 18
+                }
+            ]
+        },
+        {
+            "name": "LiveRamp",
+            "children": [
+                {
+                    "name": "LiveRamp",
+                    "value": 15
                 }
             ]
         },
@@ -1077,7 +2409,61 @@
             "children": [
                 {
                     "name": "Logitech",
-                    "value": 186
+                    "value": 54
+                }
+            ]
+        },
+        {
+            "name": "Lufax",
+            "children": [
+                {
+                    "name": "Lufax",
+                    "value": 2
+                }
+            ]
+        },
+        {
+            "name": "Lumen",
+            "children": [
+                {
+                    "name": "Lumen",
+                    "value": 22
+                }
+            ]
+        },
+        {
+            "name": "Lumentum",
+            "children": [
+                {
+                    "name": "Lumentum",
+                    "value": 26
+                }
+            ]
+        },
+        {
+            "name": "Luminar Technologies",
+            "children": [
+                {
+                    "name": "Luminar Technologies",
+                    "value": 3
+                }
+            ]
+        },
+        {
+            "name": "Lumine Group",
+            "children": [
+                {
+                    "name": "Lumine Group",
+                    "value": 11
+                }
+            ]
+        },
+        {
+            "name": "Lyft",
+            "children": [
+                {
+                    "name": "Lyft",
+                    "value": 46
                 }
             ]
         },
@@ -1086,7 +2472,25 @@
             "children": [
                 {
                     "name": "M3 Inc",
-                    "value": 8
+                    "value": 7
+                }
+            ]
+        },
+        {
+            "name": "MACOM",
+            "children": [
+                {
+                    "name": "MACOM",
+                    "value": 33
+                }
+            ]
+        },
+        {
+            "name": "MakeMyTrip",
+            "children": [
+                {
+                    "name": "MakeMyTrip",
+                    "value": 13
                 }
             ]
         },
@@ -1095,7 +2499,34 @@
             "children": [
                 {
                     "name": "Manhattan Associates",
-                    "value": 31
+                    "value": 15
+                }
+            ]
+        },
+        {
+            "name": "MapmyIndia",
+            "children": [
+                {
+                    "name": "MapmyIndia",
+                    "value": 5
+                }
+            ]
+        },
+        {
+            "name": "Marathon Digital Holdings",
+            "children": [
+                {
+                    "name": "Marathon Digital Holdings",
+                    "value": 118
+                }
+            ]
+        },
+        {
+            "name": "Marqeta",
+            "children": [
+                {
+                    "name": "Marqeta",
+                    "value": 2
                 }
             ]
         },
@@ -1104,7 +2535,16 @@
             "children": [
                 {
                     "name": "Marvell Technology Group",
-                    "value": 44
+                    "value": 42
+                }
+            ]
+        },
+        {
+            "name": "Mastek",
+            "children": [
+                {
+                    "name": "Mastek",
+                    "value": 12
                 }
             ]
         },
@@ -1113,7 +2553,25 @@
             "children": [
                 {
                     "name": "Match Group",
-                    "value": 2
+                    "value": 14
+                }
+            ]
+        },
+        {
+            "name": "Matterport",
+            "children": [
+                {
+                    "name": "Matterport",
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "name": "MaxLinear",
+            "children": [
+                {
+                    "name": "MaxLinear",
+                    "value": 20
                 }
             ]
         },
@@ -1122,7 +2580,7 @@
             "children": [
                 {
                     "name": "MediaTek",
-                    "value": 270
+                    "value": 147
                 }
             ]
         },
@@ -1131,7 +2589,25 @@
             "children": [
                 {
                     "name": "Meituan",
-                    "value": 90
+                    "value": 43
+                }
+            ]
+        },
+        {
+            "name": "Melexis NV",
+            "children": [
+                {
+                    "name": "Melexis NV",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "name": "Mensch und Maschine",
+            "children": [
+                {
+                    "name": "Mensch und Maschine",
+                    "value": 22
                 }
             ]
         },
@@ -1140,7 +2616,25 @@
             "children": [
                 {
                     "name": "MercadoLibre",
-                    "value": 89
+                    "value": 287
+                }
+            ]
+        },
+        {
+            "name": "Mercari",
+            "children": [
+                {
+                    "name": "Mercari",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "name": "MeridianLink",
+            "children": [
+                {
+                    "name": "MeridianLink",
+                    "value": 10
                 }
             ]
         },
@@ -1149,7 +2643,7 @@
             "children": [
                 {
                     "name": "Meta",
-                    "value": 275
+                    "value": 68
                 }
             ]
         },
@@ -1158,7 +2652,7 @@
             "children": [
                 {
                     "name": "MicroStrategy",
-                    "value": 211
+                    "value": 133
                 }
             ]
         },
@@ -1167,7 +2661,7 @@
             "children": [
                 {
                     "name": "Microchip Technology",
-                    "value": 38
+                    "value": 61
                 }
             ]
         },
@@ -1176,7 +2670,7 @@
             "children": [
                 {
                     "name": "Micron Technology",
-                    "value": 209
+                    "value": 160
                 }
             ]
         },
@@ -1185,7 +2679,16 @@
             "children": [
                 {
                     "name": "Microsoft",
-                    "value": 361
+                    "value": 290
+                }
+            ]
+        },
+        {
+            "name": "Mixi",
+            "children": [
+                {
+                    "name": "Mixi",
+                    "value": 7
                 }
             ]
         },
@@ -1194,7 +2697,16 @@
             "children": [
                 {
                     "name": "Mobileye",
-                    "value": 17
+                    "value": 27
+                }
+            ]
+        },
+        {
+            "name": "Model N",
+            "children": [
+                {
+                    "name": "Model N",
+                    "value": 25
                 }
             ]
         },
@@ -1203,7 +2715,7 @@
             "children": [
                 {
                     "name": "MongoDB",
-                    "value": 171
+                    "value": 110
                 }
             ]
         },
@@ -1212,7 +2724,16 @@
             "children": [
                 {
                     "name": "Monolithic Power Systems",
-                    "value": 81
+                    "value": 29
+                }
+            ]
+        },
+        {
+            "name": "Monotaro",
+            "children": [
+                {
+                    "name": "Monotaro",
+                    "value": 0
                 }
             ]
         },
@@ -1226,11 +2747,56 @@
             ]
         },
         {
+            "name": "N-Able",
+            "children": [
+                {
+                    "name": "N-Able",
+                    "value": 3
+                }
+            ]
+        },
+        {
+            "name": "NCR Corporation",
+            "children": [
+                {
+                    "name": "NCR Corporation",
+                    "value": 44
+                }
+            ]
+        },
+        {
+            "name": "NCsoft",
+            "children": [
+                {
+                    "name": "NCsoft",
+                    "value": 3
+                }
+            ]
+        },
+        {
             "name": "NEC Corp",
             "children": [
                 {
                     "name": "NEC Corp",
-                    "value": 51
+                    "value": 41
+                }
+            ]
+        },
+        {
+            "name": "NETSCOUT",
+            "children": [
+                {
+                    "name": "NETSCOUT",
+                    "value": 14
+                }
+            ]
+        },
+        {
+            "name": "NEXTDC",
+            "children": [
+                {
+                    "name": "NEXTDC",
+                    "value": 15
                 }
             ]
         },
@@ -1239,7 +2805,7 @@
             "children": [
                 {
                     "name": "NICE",
-                    "value": 87
+                    "value": 61
                 }
             ]
         },
@@ -1248,7 +2814,7 @@
             "children": [
                 {
                     "name": "NVIDIA",
-                    "value": 392
+                    "value": 446
                 }
             ]
         },
@@ -1257,7 +2823,34 @@
             "children": [
                 {
                     "name": "NXP Semiconductors",
-                    "value": 412
+                    "value": 168
+                }
+            ]
+        },
+        {
+            "name": "Nagarro",
+            "children": [
+                {
+                    "name": "Nagarro",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "name": "Nan Ya PCB",
+            "children": [
+                {
+                    "name": "Nan Ya PCB",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "name": "Nanya Technology",
+            "children": [
+                {
+                    "name": "Nanya Technology",
+                    "value": 0
                 }
             ]
         },
@@ -1275,7 +2868,25 @@
             "children": [
                 {
                     "name": "Naver",
-                    "value": 178
+                    "value": 67
+                }
+            ]
+        },
+        {
+            "name": "Navitas Semiconductor",
+            "children": [
+                {
+                    "name": "Navitas Semiconductor",
+                    "value": 34
+                }
+            ]
+        },
+        {
+            "name": "Nazara Technologies",
+            "children": [
+                {
+                    "name": "Nazara Technologies",
+                    "value": 46
                 }
             ]
         },
@@ -1284,7 +2895,16 @@
             "children": [
                 {
                     "name": "Nemetschek",
-                    "value": 195
+                    "value": 11
+                }
+            ]
+        },
+        {
+            "name": "NerdWallet",
+            "children": [
+                {
+                    "name": "NerdWallet",
+                    "value": 90
                 }
             ]
         },
@@ -1293,7 +2913,7 @@
             "children": [
                 {
                     "name": "NetApp",
-                    "value": 26
+                    "value": 24
                 }
             ]
         },
@@ -1302,7 +2922,7 @@
             "children": [
                 {
                     "name": "NetEase",
-                    "value": 47
+                    "value": 5
                 }
             ]
         },
@@ -1311,7 +2931,16 @@
             "children": [
                 {
                     "name": "Netflix",
-                    "value": 106
+                    "value": 25
+                }
+            ]
+        },
+        {
+            "name": "New Relic",
+            "children": [
+                {
+                    "name": "New Relic",
+                    "value": 27
                 }
             ]
         },
@@ -1320,7 +2949,25 @@
             "children": [
                 {
                     "name": "Nexon",
-                    "value": 196
+                    "value": 234
+                }
+            ]
+        },
+        {
+            "name": "Nexus AG",
+            "children": [
+                {
+                    "name": "Nexus AG",
+                    "value": 2
+                }
+            ]
+        },
+        {
+            "name": "Nikon",
+            "children": [
+                {
+                    "name": "Nikon",
+                    "value": 31
                 }
             ]
         },
@@ -1329,7 +2976,7 @@
             "children": [
                 {
                     "name": "Nintendo",
-                    "value": 231
+                    "value": 182
                 }
             ]
         },
@@ -1338,7 +2985,34 @@
             "children": [
                 {
                     "name": "Nokia",
-                    "value": 288
+                    "value": 252
+                }
+            ]
+        },
+        {
+            "name": "Nordic Semiconductor",
+            "children": [
+                {
+                    "name": "Nordic Semiconductor",
+                    "value": 2
+                }
+            ]
+        },
+        {
+            "name": "Northern Data AG",
+            "children": [
+                {
+                    "name": "Northern Data AG",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "name": "Nova Measuring Instruments",
+            "children": [
+                {
+                    "name": "Nova Measuring Instruments",
+                    "value": 13
                 }
             ]
         },
@@ -1347,7 +3021,7 @@
             "children": [
                 {
                     "name": "Novatek Microelectronics",
-                    "value": 22
+                    "value": 2
                 }
             ]
         },
@@ -1356,7 +3030,34 @@
             "children": [
                 {
                     "name": "Nutanix",
-                    "value": 44
+                    "value": 34
+                }
+            ]
+        },
+        {
+            "name": "Nuvei",
+            "children": [
+                {
+                    "name": "Nuvei",
+                    "value": 22
+                }
+            ]
+        },
+        {
+            "name": "Nykaa",
+            "children": [
+                {
+                    "name": "Nykaa",
+                    "value": 43
+                }
+            ]
+        },
+        {
+            "name": "ODDITY Tech",
+            "children": [
+                {
+                    "name": "ODDITY Tech",
+                    "value": 7
                 }
             ]
         },
@@ -1365,7 +3066,16 @@
             "children": [
                 {
                     "name": "ON Semiconductor",
-                    "value": 232
+                    "value": 256
+                }
+            ]
+        },
+        {
+            "name": "OVH Groupe",
+            "children": [
+                {
+                    "name": "OVH Groupe",
+                    "value": 0
                 }
             ]
         },
@@ -1374,7 +3084,7 @@
             "children": [
                 {
                     "name": "Ocado",
-                    "value": 35
+                    "value": 14
                 }
             ]
         },
@@ -1383,6 +3093,24 @@
             "children": [
                 {
                     "name": "Okta",
+                    "value": 27
+                }
+            ]
+        },
+        {
+            "name": "Olo",
+            "children": [
+                {
+                    "name": "Olo",
+                    "value": 15
+                }
+            ]
+        },
+        {
+            "name": "Omnicell",
+            "children": [
+                {
+                    "name": "Omnicell",
                     "value": 18
                 }
             ]
@@ -1392,7 +3120,7 @@
             "children": [
                 {
                     "name": "Onto Innovation",
-                    "value": 3
+                    "value": 77
                 }
             ]
         },
@@ -1401,7 +3129,16 @@
             "children": [
                 {
                     "name": "OpenText",
-                    "value": 45
+                    "value": 5
+                }
+            ]
+        },
+        {
+            "name": "Opera",
+            "children": [
+                {
+                    "name": "Opera",
+                    "value": 38
                 }
             ]
         },
@@ -1410,7 +3147,7 @@
             "children": [
                 {
                     "name": "Oracle",
-                    "value": 160
+                    "value": 193
                 }
             ]
         },
@@ -1419,7 +3156,61 @@
             "children": [
                 {
                     "name": "Oracle Corp Japan",
-                    "value": 24
+                    "value": 7
+                }
+            ]
+        },
+        {
+            "name": "Overstock.com",
+            "children": [
+                {
+                    "name": "Overstock.com",
+                    "value": 12
+                }
+            ]
+        },
+        {
+            "name": "PAR Technology",
+            "children": [
+                {
+                    "name": "PAR Technology",
+                    "value": 2
+                }
+            ]
+        },
+        {
+            "name": "PB Fintech",
+            "children": [
+                {
+                    "name": "PB Fintech",
+                    "value": 27
+                }
+            ]
+        },
+        {
+            "name": "PDF Solutions",
+            "children": [
+                {
+                    "name": "PDF Solutions",
+                    "value": 29
+                }
+            ]
+        },
+        {
+            "name": "PROG Holdings",
+            "children": [
+                {
+                    "name": "PROG Holdings",
+                    "value": 15
+                }
+            ]
+        },
+        {
+            "name": "PROS",
+            "children": [
+                {
+                    "name": "PROS",
+                    "value": 21
                 }
             ]
         },
@@ -1428,7 +3219,25 @@
             "children": [
                 {
                     "name": "PTC",
-                    "value": 103
+                    "value": 48
+                }
+            ]
+        },
+        {
+            "name": "Pagaya Technologies",
+            "children": [
+                {
+                    "name": "Pagaya Technologies",
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "name": "PagerDuty",
+            "children": [
+                {
+                    "name": "PagerDuty",
+                    "value": 21
                 }
             ]
         },
@@ -1437,7 +3246,7 @@
             "children": [
                 {
                     "name": "Palantir",
-                    "value": 155
+                    "value": 342
                 }
             ]
         },
@@ -1446,7 +3255,7 @@
             "children": [
                 {
                     "name": "Palo Alto Networks",
-                    "value": 123
+                    "value": 205
                 }
             ]
         },
@@ -1455,7 +3264,16 @@
             "children": [
                 {
                     "name": "Panasonic",
-                    "value": 80
+                    "value": 100
+                }
+            ]
+        },
+        {
+            "name": "Paradox Interactive",
+            "children": [
+                {
+                    "name": "Paradox Interactive",
+                    "value": 27
                 }
             ]
         },
@@ -1464,7 +3282,7 @@
             "children": [
                 {
                     "name": "PayPal",
-                    "value": 439
+                    "value": 263
                 }
             ]
         },
@@ -1473,7 +3291,16 @@
             "children": [
                 {
                     "name": "Paycom",
-                    "value": 82
+                    "value": 45
+                }
+            ]
+        },
+        {
+            "name": "Paycor",
+            "children": [
+                {
+                    "name": "Paycor",
+                    "value": 16
                 }
             ]
         },
@@ -1482,7 +3309,70 @@
             "children": [
                 {
                     "name": "Paylocity",
-                    "value": 25
+                    "value": 116
+                }
+            ]
+        },
+        {
+            "name": "Payoneer",
+            "children": [
+                {
+                    "name": "Payoneer",
+                    "value": 22
+                }
+            ]
+        },
+        {
+            "name": "Paytm",
+            "children": [
+                {
+                    "name": "Paytm",
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "name": "Pegasystems",
+            "children": [
+                {
+                    "name": "Pegasystems",
+                    "value": 7
+                }
+            ]
+        },
+        {
+            "name": "Perfect World Entertainment",
+            "children": [
+                {
+                    "name": "Perfect World Entertainment",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "name": "Perion Network",
+            "children": [
+                {
+                    "name": "Perion Network",
+                    "value": 35
+                }
+            ]
+        },
+        {
+            "name": "Photronics",
+            "children": [
+                {
+                    "name": "Photronics",
+                    "value": 14
+                }
+            ]
+        },
+        {
+            "name": "Phreesia",
+            "children": [
+                {
+                    "name": "Phreesia",
+                    "value": 23
                 }
             ]
         },
@@ -1491,7 +3381,61 @@
             "children": [
                 {
                     "name": "Pinduoduo",
-                    "value": 15
+                    "value": 24
+                }
+            ]
+        },
+        {
+            "name": "Playtech",
+            "children": [
+                {
+                    "name": "Playtech",
+                    "value": 3
+                }
+            ]
+        },
+        {
+            "name": "Playtika",
+            "children": [
+                {
+                    "name": "Playtika",
+                    "value": 9
+                }
+            ]
+        },
+        {
+            "name": "Power Integrations",
+            "children": [
+                {
+                    "name": "Power Integrations",
+                    "value": 23
+                }
+            ]
+        },
+        {
+            "name": "PowerSchool",
+            "children": [
+                {
+                    "name": "PowerSchool",
+                    "value": 3
+                }
+            ]
+        },
+        {
+            "name": "Powerchip Semiconductor Manufacturing",
+            "children": [
+                {
+                    "name": "Powerchip Semiconductor Manufacturing",
+                    "value": 18
+                }
+            ]
+        },
+        {
+            "name": "Presight AI",
+            "children": [
+                {
+                    "name": "Presight AI",
+                    "value": 26
                 }
             ]
         },
@@ -1500,7 +3444,34 @@
             "children": [
                 {
                     "name": "Procore",
-                    "value": 30
+                    "value": 9
+                }
+            ]
+        },
+        {
+            "name": "Progress Software",
+            "children": [
+                {
+                    "name": "Progress Software",
+                    "value": 24
+                }
+            ]
+        },
+        {
+            "name": "Protolabs",
+            "children": [
+                {
+                    "name": "Protolabs",
+                    "value": 52
+                }
+            ]
+        },
+        {
+            "name": "PubMatic",
+            "children": [
+                {
+                    "name": "PubMatic",
+                    "value": 12
                 }
             ]
         },
@@ -1509,7 +3480,16 @@
             "children": [
                 {
                     "name": "Pure Storage",
-                    "value": 78
+                    "value": 14
+                }
+            ]
+        },
+        {
+            "name": "Q2",
+            "children": [
+                {
+                    "name": "Q2",
+                    "value": 90
                 }
             ]
         },
@@ -1518,7 +3498,7 @@
             "children": [
                 {
                     "name": "QUALCOMM",
-                    "value": 586
+                    "value": 375
                 }
             ]
         },
@@ -1527,7 +3507,25 @@
             "children": [
                 {
                     "name": "Qorvo",
-                    "value": 24
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "name": "Qt Group",
+            "children": [
+                {
+                    "name": "Qt Group",
+                    "value": 3
+                }
+            ]
+        },
+        {
+            "name": "Qualys",
+            "children": [
+                {
+                    "name": "Qualys",
+                    "value": 12
                 }
             ]
         },
@@ -1536,7 +3534,16 @@
             "children": [
                 {
                     "name": "Rakuten",
-                    "value": 60
+                    "value": 35
+                }
+            ]
+        },
+        {
+            "name": "Rapid7",
+            "children": [
+                {
+                    "name": "Rapid7",
+                    "value": 7
                 }
             ]
         },
@@ -1550,11 +3557,65 @@
             ]
         },
         {
+            "name": "Redfin",
+            "children": [
+                {
+                    "name": "Redfin",
+                    "value": 16
+                }
+            ]
+        },
+        {
+            "name": "Remitly",
+            "children": [
+                {
+                    "name": "Remitly",
+                    "value": 5
+                }
+            ]
+        },
+        {
             "name": "Renesas Electronics",
             "children": [
                 {
                     "name": "Renesas Electronics",
-                    "value": 60
+                    "value": 32
+                }
+            ]
+        },
+        {
+            "name": "Repay Holdings",
+            "children": [
+                {
+                    "name": "Repay Holdings",
+                    "value": 3
+                }
+            ]
+        },
+        {
+            "name": "Revolve",
+            "children": [
+                {
+                    "name": "Revolve",
+                    "value": 5
+                }
+            ]
+        },
+        {
+            "name": "RingCentral",
+            "children": [
+                {
+                    "name": "RingCentral",
+                    "value": 26
+                }
+            ]
+        },
+        {
+            "name": "Riot Blockchain",
+            "children": [
+                {
+                    "name": "Riot Blockchain",
+                    "value": 55
                 }
             ]
         },
@@ -1563,7 +3624,7 @@
             "children": [
                 {
                     "name": "Robinhood",
-                    "value": 73
+                    "value": 78
                 }
             ]
         },
@@ -1572,7 +3633,7 @@
             "children": [
                 {
                     "name": "Rohm",
-                    "value": 5
+                    "value": 2
                 }
             ]
         },
@@ -1581,7 +3642,7 @@
             "children": [
                 {
                     "name": "Roku",
-                    "value": 289
+                    "value": 10
                 }
             ]
         },
@@ -1590,7 +3651,25 @@
             "children": [
                 {
                     "name": "Roper Technologies",
-                    "value": 73
+                    "value": 46
+                }
+            ]
+        },
+        {
+            "name": "Rover",
+            "children": [
+                {
+                    "name": "Rover",
+                    "value": 81
+                }
+            ]
+        },
+        {
+            "name": "Rumble",
+            "children": [
+                {
+                    "name": "Rumble",
+                    "value": 0
                 }
             ]
         },
@@ -1599,7 +3678,7 @@
             "children": [
                 {
                     "name": "SAP",
-                    "value": 280
+                    "value": 243
                 }
             ]
         },
@@ -1608,7 +3687,16 @@
             "children": [
                 {
                     "name": "SK Hynix",
-                    "value": 337
+                    "value": 267
+                }
+            ]
+        },
+        {
+            "name": "SMART Global Holdings",
+            "children": [
+                {
+                    "name": "SMART Global Holdings",
+                    "value": 9
                 }
             ]
         },
@@ -1617,7 +3705,16 @@
             "children": [
                 {
                     "name": "SMIC",
-                    "value": 37
+                    "value": 12
+                }
+            ]
+        },
+        {
+            "name": "SPS Commerce",
+            "children": [
+                {
+                    "name": "SPS Commerce",
+                    "value": 29
                 }
             ]
         },
@@ -1626,7 +3723,7 @@
             "children": [
                 {
                     "name": "SS&C Technologies",
-                    "value": 8
+                    "value": 0
                 }
             ]
         },
@@ -1635,7 +3732,25 @@
             "children": [
                 {
                     "name": "STMicroelectronics",
-                    "value": 51
+                    "value": 61
+                }
+            ]
+        },
+        {
+            "name": "SUSE S.A.",
+            "children": [
+                {
+                    "name": "SUSE S.A.",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "name": "Sabre",
+            "children": [
+                {
+                    "name": "Sabre",
+                    "value": 36
                 }
             ]
         },
@@ -1644,7 +3759,7 @@
             "children": [
                 {
                     "name": "Sage Group",
-                    "value": 0
+                    "value": 27
                 }
             ]
         },
@@ -1653,7 +3768,7 @@
             "children": [
                 {
                     "name": "Salesforce",
-                    "value": 155
+                    "value": 179
                 }
             ]
         },
@@ -1662,7 +3777,7 @@
             "children": [
                 {
                     "name": "Samsara",
-                    "value": 36
+                    "value": 23
                 }
             ]
         },
@@ -1671,7 +3786,34 @@
             "children": [
                 {
                     "name": "Samsung",
-                    "value": 331
+                    "value": 295
+                }
+            ]
+        },
+        {
+            "name": "Sanmina",
+            "children": [
+                {
+                    "name": "Sanmina",
+                    "value": 20
+                }
+            ]
+        },
+        {
+            "name": "Sapiens",
+            "children": [
+                {
+                    "name": "Sapiens",
+                    "value": 38
+                }
+            ]
+        },
+        {
+            "name": "Schibsted",
+            "children": [
+                {
+                    "name": "Schibsted",
+                    "value": 3
                 }
             ]
         },
@@ -1680,7 +3822,16 @@
             "children": [
                 {
                     "name": "Schneider Electric",
-                    "value": 180
+                    "value": 127
+                }
+            ]
+        },
+        {
+            "name": "Schr\u00f6dinger",
+            "children": [
+                {
+                    "name": "Schr\u00f6dinger",
+                    "value": 13
                 }
             ]
         },
@@ -1689,7 +3840,34 @@
             "children": [
                 {
                     "name": "Seagate Technology",
-                    "value": 66
+                    "value": 55
+                }
+            ]
+        },
+        {
+            "name": "Sega Sammy Holdings",
+            "children": [
+                {
+                    "name": "Sega Sammy Holdings",
+                    "value": 8
+                }
+            ]
+        },
+        {
+            "name": "Semrush",
+            "children": [
+                {
+                    "name": "Semrush",
+                    "value": 8
+                }
+            ]
+        },
+        {
+            "name": "Semtech",
+            "children": [
+                {
+                    "name": "Semtech",
+                    "value": 27
                 }
             ]
         },
@@ -1698,7 +3876,7 @@
             "children": [
                 {
                     "name": "SentinelOne",
-                    "value": 29
+                    "value": 9
                 }
             ]
         },
@@ -1707,7 +3885,7 @@
             "children": [
                 {
                     "name": "ServiceNow",
-                    "value": 128
+                    "value": 109
                 }
             ]
         },
@@ -1716,7 +3894,88 @@
             "children": [
                 {
                     "name": "Shopify",
-                    "value": 233
+                    "value": 53
+                }
+            ]
+        },
+        {
+            "name": "Shutterstock",
+            "children": [
+                {
+                    "name": "Shutterstock",
+                    "value": 68
+                }
+            ]
+        },
+        {
+            "name": "SiTime",
+            "children": [
+                {
+                    "name": "SiTime",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "name": "Silergy",
+            "children": [
+                {
+                    "name": "Silergy",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "name": "Silicon Labs",
+            "children": [
+                {
+                    "name": "Silicon Labs",
+                    "value": 19
+                }
+            ]
+        },
+        {
+            "name": "Silicon Motion",
+            "children": [
+                {
+                    "name": "Silicon Motion",
+                    "value": 116
+                }
+            ]
+        },
+        {
+            "name": "Siltronic",
+            "children": [
+                {
+                    "name": "Siltronic",
+                    "value": 24
+                }
+            ]
+        },
+        {
+            "name": "SimCorp",
+            "children": [
+                {
+                    "name": "SimCorp",
+                    "value": 7
+                }
+            ]
+        },
+        {
+            "name": "Simulations Plus",
+            "children": [
+                {
+                    "name": "Simulations Plus",
+                    "value": 14
+                }
+            ]
+        },
+        {
+            "name": "Sino-American Silicon Products",
+            "children": [
+                {
+                    "name": "Sino-American Silicon Products",
+                    "value": 0
                 }
             ]
         },
@@ -1725,7 +3984,16 @@
             "children": [
                 {
                     "name": "Skyworks Solutions",
-                    "value": 27
+                    "value": 22
+                }
+            ]
+        },
+        {
+            "name": "Smartsheet",
+            "children": [
+                {
+                    "name": "Smartsheet",
+                    "value": 19
                 }
             ]
         },
@@ -1734,7 +4002,7 @@
             "children": [
                 {
                     "name": "Snap",
-                    "value": 117
+                    "value": 18
                 }
             ]
         },
@@ -1743,7 +4011,7 @@
             "children": [
                 {
                     "name": "Snowflake",
-                    "value": 49
+                    "value": 21
                 }
             ]
         },
@@ -1752,7 +4020,52 @@
             "children": [
                 {
                     "name": "SoFi",
-                    "value": 92
+                    "value": 80
+                }
+            ]
+        },
+        {
+            "name": "Softcat",
+            "children": [
+                {
+                    "name": "Softcat",
+                    "value": 7
+                }
+            ]
+        },
+        {
+            "name": "Software AG",
+            "children": [
+                {
+                    "name": "Software AG",
+                    "value": 2
+                }
+            ]
+        },
+        {
+            "name": "SoftwareONE",
+            "children": [
+                {
+                    "name": "SoftwareONE",
+                    "value": 2
+                }
+            ]
+        },
+        {
+            "name": "Soitec",
+            "children": [
+                {
+                    "name": "Soitec",
+                    "value": 2
+                }
+            ]
+        },
+        {
+            "name": "SolarWinds",
+            "children": [
+                {
+                    "name": "SolarWinds",
+                    "value": 19
                 }
             ]
         },
@@ -1761,7 +4074,16 @@
             "children": [
                 {
                     "name": "Sony",
-                    "value": 273
+                    "value": 219
+                }
+            ]
+        },
+        {
+            "name": "Spirent",
+            "children": [
+                {
+                    "name": "Spirent",
+                    "value": 13
                 }
             ]
         },
@@ -1770,7 +4092,7 @@
             "children": [
                 {
                     "name": "Splunk",
-                    "value": 27
+                    "value": 134
                 }
             ]
         },
@@ -1779,7 +4101,52 @@
             "children": [
                 {
                     "name": "Spotify",
-                    "value": 144
+                    "value": 189
+                }
+            ]
+        },
+        {
+            "name": "Sprinklr",
+            "children": [
+                {
+                    "name": "Sprinklr",
+                    "value": 11
+                }
+            ]
+        },
+        {
+            "name": "Sprout Social",
+            "children": [
+                {
+                    "name": "Sprout Social",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "name": "Squarespace",
+            "children": [
+                {
+                    "name": "Squarespace",
+                    "value": 7
+                }
+            ]
+        },
+        {
+            "name": "Sterling Check",
+            "children": [
+                {
+                    "name": "Sterling Check",
+                    "value": 20
+                }
+            ]
+        },
+        {
+            "name": "Stratasys",
+            "children": [
+                {
+                    "name": "Stratasys",
+                    "value": 35
                 }
             ]
         },
@@ -1788,7 +4155,7 @@
             "children": [
                 {
                     "name": "Supermicro",
-                    "value": 57
+                    "value": 84
                 }
             ]
         },
@@ -1797,7 +4164,16 @@
             "children": [
                 {
                     "name": "Symbotic",
-                    "value": 3
+                    "value": 31
+                }
+            ]
+        },
+        {
+            "name": "Synaptics",
+            "children": [
+                {
+                    "name": "Synaptics",
+                    "value": 25
                 }
             ]
         },
@@ -1806,7 +4182,16 @@
             "children": [
                 {
                     "name": "Synopsys",
-                    "value": 69
+                    "value": 66
+                }
+            ]
+        },
+        {
+            "name": "TANLA",
+            "children": [
+                {
+                    "name": "TANLA",
+                    "value": 10
                 }
             ]
         },
@@ -1815,7 +4200,16 @@
             "children": [
                 {
                     "name": "TE Connectivity",
-                    "value": 45
+                    "value": 29
+                }
+            ]
+        },
+        {
+            "name": "TOTVS",
+            "children": [
+                {
+                    "name": "TOTVS",
+                    "value": 0
                 }
             ]
         },
@@ -1824,7 +4218,16 @@
             "children": [
                 {
                     "name": "TSMC",
-                    "value": 258
+                    "value": 104
+                }
+            ]
+        },
+        {
+            "name": "Taboola.com",
+            "children": [
+                {
+                    "name": "Taboola.com",
+                    "value": 14
                 }
             ]
         },
@@ -1833,7 +4236,79 @@
             "children": [
                 {
                     "name": "Take 2 Interactive",
-                    "value": 13
+                    "value": 43
+                }
+            ]
+        },
+        {
+            "name": "Tata Elxsi",
+            "children": [
+                {
+                    "name": "Tata Elxsi",
+                    "value": 5
+                }
+            ]
+        },
+        {
+            "name": "TeamViewer",
+            "children": [
+                {
+                    "name": "TeamViewer",
+                    "value": 26
+                }
+            ]
+        },
+        {
+            "name": "TechTarget",
+            "children": [
+                {
+                    "name": "TechTarget",
+                    "value": 32
+                }
+            ]
+        },
+        {
+            "name": "Technoprobe",
+            "children": [
+                {
+                    "name": "Technoprobe",
+                    "value": 6
+                }
+            ]
+        },
+        {
+            "name": "Teladoc Health",
+            "children": [
+                {
+                    "name": "Teladoc Health",
+                    "value": 40
+                }
+            ]
+        },
+        {
+            "name": "Telus International",
+            "children": [
+                {
+                    "name": "Telus International",
+                    "value": 4
+                }
+            ]
+        },
+        {
+            "name": "Temenos",
+            "children": [
+                {
+                    "name": "Temenos",
+                    "value": 6
+                }
+            ]
+        },
+        {
+            "name": "Tenable",
+            "children": [
+                {
+                    "name": "Tenable",
+                    "value": 28
                 }
             ]
         },
@@ -1842,7 +4317,16 @@
             "children": [
                 {
                     "name": "Tencent",
-                    "value": 222
+                    "value": 68
+                }
+            ]
+        },
+        {
+            "name": "Teradata",
+            "children": [
+                {
+                    "name": "Teradata",
+                    "value": 14
                 }
             ]
         },
@@ -1851,7 +4335,7 @@
             "children": [
                 {
                     "name": "Tesla",
-                    "value": 58
+                    "value": 107
                 }
             ]
         },
@@ -1860,7 +4344,16 @@
             "children": [
                 {
                     "name": "Texas Instruments",
-                    "value": 28
+                    "value": 77
+                }
+            ]
+        },
+        {
+            "name": "The Hut Group",
+            "children": [
+                {
+                    "name": "The Hut Group",
+                    "value": 17
                 }
             ]
         },
@@ -1869,7 +4362,16 @@
             "children": [
                 {
                     "name": "The Trade Desk",
-                    "value": 203
+                    "value": 108
+                }
+            ]
+        },
+        {
+            "name": "TietoEVRY",
+            "children": [
+                {
+                    "name": "TietoEVRY",
+                    "value": 0
                 }
             ]
         },
@@ -1878,7 +4380,7 @@
             "children": [
                 {
                     "name": "Toast",
-                    "value": 7
+                    "value": 108
                 }
             ]
         },
@@ -1887,7 +4389,43 @@
             "children": [
                 {
                     "name": "Tokyo Electron",
-                    "value": 65
+                    "value": 19
+                }
+            ]
+        },
+        {
+            "name": "TomTom",
+            "children": [
+                {
+                    "name": "TomTom",
+                    "value": 5
+                }
+            ]
+        },
+        {
+            "name": "Topicus",
+            "children": [
+                {
+                    "name": "Topicus",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "name": "Tower Semiconductor",
+            "children": [
+                {
+                    "name": "Tower Semiconductor",
+                    "value": 59
+                }
+            ]
+        },
+        {
+            "name": "Trainline",
+            "children": [
+                {
+                    "name": "Trainline",
+                    "value": 175
                 }
             ]
         },
@@ -1896,7 +4434,7 @@
             "children": [
                 {
                     "name": "Trend Micro",
-                    "value": 32
+                    "value": 15
                 }
             ]
         },
@@ -1905,7 +4443,7 @@
             "children": [
                 {
                     "name": "Trimble",
-                    "value": 20
+                    "value": 95
                 }
             ]
         },
@@ -1914,7 +4452,16 @@
             "children": [
                 {
                     "name": "Trip.com",
-                    "value": 100
+                    "value": 69
+                }
+            ]
+        },
+        {
+            "name": "Truecaller",
+            "children": [
+                {
+                    "name": "Truecaller",
+                    "value": 24
                 }
             ]
         },
@@ -1923,7 +4470,7 @@
             "children": [
                 {
                     "name": "Twilio",
-                    "value": 29
+                    "value": 22
                 }
             ]
         },
@@ -1932,7 +4479,7 @@
             "children": [
                 {
                     "name": "Tyler Technologies",
-                    "value": 62
+                    "value": 18
                 }
             ]
         },
@@ -1941,7 +4488,25 @@
             "children": [
                 {
                     "name": "Uber",
-                    "value": 71
+                    "value": 168
+                }
+            ]
+        },
+        {
+            "name": "Ubisoft",
+            "children": [
+                {
+                    "name": "Ubisoft",
+                    "value": 94
+                }
+            ]
+        },
+        {
+            "name": "Udemy",
+            "children": [
+                {
+                    "name": "Udemy",
+                    "value": 21
                 }
             ]
         },
@@ -1950,7 +4515,16 @@
             "children": [
                 {
                     "name": "UiPath",
-                    "value": 47
+                    "value": 62
+                }
+            ]
+        },
+        {
+            "name": "Ultra Clean Holdings",
+            "children": [
+                {
+                    "name": "Ultra Clean Holdings",
+                    "value": 6
                 }
             ]
         },
@@ -1959,7 +4533,16 @@
             "children": [
                 {
                     "name": "Unimicron",
-                    "value": 0
+                    "value": 8
+                }
+            ]
+        },
+        {
+            "name": "United Internet",
+            "children": [
+                {
+                    "name": "United Internet",
+                    "value": 3
                 }
             ]
         },
@@ -1968,7 +4551,7 @@
             "children": [
                 {
                     "name": "United Microelectronics",
-                    "value": 66
+                    "value": 45
                 }
             ]
         },
@@ -1977,7 +4560,61 @@
             "children": [
                 {
                     "name": "Unity Software",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "name": "Upstart",
+            "children": [
+                {
+                    "name": "Upstart",
+                    "value": 9
+                }
+            ]
+        },
+        {
+            "name": "VIZIO",
+            "children": [
+                {
+                    "name": "VIZIO",
+                    "value": 12
+                }
+            ]
+        },
+        {
+            "name": "VTEX",
+            "children": [
+                {
+                    "name": "VTEX",
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "name": "Vanguard International Semiconductor",
+            "children": [
+                {
+                    "name": "Vanguard International Semiconductor",
                     "value": 18
+                }
+            ]
+        },
+        {
+            "name": "Varonis",
+            "children": [
+                {
+                    "name": "Varonis",
+                    "value": 12
+                }
+            ]
+        },
+        {
+            "name": "Veeco",
+            "children": [
+                {
+                    "name": "Veeco",
+                    "value": 14
                 }
             ]
         },
@@ -1986,7 +4623,25 @@
             "children": [
                 {
                     "name": "Veeva Systems",
-                    "value": 28
+                    "value": 31
+                }
+            ]
+        },
+        {
+            "name": "Verint Systems",
+            "children": [
+                {
+                    "name": "Verint Systems",
+                    "value": 23
+                }
+            ]
+        },
+        {
+            "name": "Vertex",
+            "children": [
+                {
+                    "name": "Vertex",
+                    "value": 124
                 }
             ]
         },
@@ -1995,7 +4650,25 @@
             "children": [
                 {
                     "name": "Vipshop",
+                    "value": 20
+                }
+            ]
+        },
+        {
+            "name": "VisEra Technologies",
+            "children": [
+                {
+                    "name": "VisEra Technologies",
                     "value": 0
+                }
+            ]
+        },
+        {
+            "name": "Vishay Intertechnology",
+            "children": [
+                {
+                    "name": "Vishay Intertechnology",
+                    "value": 12
                 }
             ]
         },
@@ -2004,7 +4677,43 @@
             "children": [
                 {
                     "name": "Vmware",
-                    "value": 156
+                    "value": 23
+                }
+            ]
+        },
+        {
+            "name": "WIN Semiconductors",
+            "children": [
+                {
+                    "name": "WIN Semiconductors",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "name": "Wayfair",
+            "children": [
+                {
+                    "name": "Wayfair",
+                    "value": 401
+                }
+            ]
+        },
+        {
+            "name": "Weibo",
+            "children": [
+                {
+                    "name": "Weibo",
+                    "value": 3
+                }
+            ]
+        },
+        {
+            "name": "Wirtualna Polska",
+            "children": [
+                {
+                    "name": "Wirtualna Polska",
+                    "value": 5
                 }
             ]
         },
@@ -2013,7 +4722,7 @@
             "children": [
                 {
                     "name": "WiseTech Global",
-                    "value": 26
+                    "value": 14
                 }
             ]
         },
@@ -2027,11 +4736,29 @@
             ]
         },
         {
+            "name": "Wix.com",
+            "children": [
+                {
+                    "name": "Wix.com",
+                    "value": 13
+                }
+            ]
+        },
+        {
+            "name": "Wolfspeed",
+            "children": [
+                {
+                    "name": "Wolfspeed",
+                    "value": 29
+                }
+            ]
+        },
+        {
             "name": "Wolters Kluwer",
             "children": [
                 {
                     "name": "Wolters Kluwer",
-                    "value": 31
+                    "value": 35
                 }
             ]
         },
@@ -2040,7 +4767,25 @@
             "children": [
                 {
                     "name": "Workday",
-                    "value": 26
+                    "value": 45
+                }
+            ]
+        },
+        {
+            "name": "Workiva",
+            "children": [
+                {
+                    "name": "Workiva",
+                    "value": 30
+                }
+            ]
+        },
+        {
+            "name": "X-FAB",
+            "children": [
+                {
+                    "name": "X-FAB",
+                    "value": 15
                 }
             ]
         },
@@ -2049,7 +4794,16 @@
             "children": [
                 {
                     "name": "Xero",
-                    "value": 23
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "name": "Xerox",
+            "children": [
+                {
+                    "name": "Xerox",
+                    "value": 0
                 }
             ]
         },
@@ -2058,7 +4812,16 @@
             "children": [
                 {
                     "name": "Xiaomi",
-                    "value": 317
+                    "value": 442
+                }
+            ]
+        },
+        {
+            "name": "Yalla Group",
+            "children": [
+                {
+                    "name": "Yalla Group",
+                    "value": 7
                 }
             ]
         },
@@ -2067,7 +4830,16 @@
             "children": [
                 {
                     "name": "Yandex",
-                    "value": 10
+                    "value": 32
+                }
+            ]
+        },
+        {
+            "name": "Yelp",
+            "children": [
+                {
+                    "name": "Yelp",
+                    "value": 49
                 }
             ]
         },
@@ -2081,11 +4853,38 @@
             ]
         },
         {
+            "name": "ZOZO",
+            "children": [
+                {
+                    "name": "ZOZO",
+                    "value": 24
+                }
+            ]
+        },
+        {
+            "name": "Zalando",
+            "children": [
+                {
+                    "name": "Zalando",
+                    "value": 13
+                }
+            ]
+        },
+        {
             "name": "Zebra Technologies",
             "children": [
                 {
                     "name": "Zebra Technologies",
-                    "value": 178
+                    "value": 109
+                }
+            ]
+        },
+        {
+            "name": "Zeta Global",
+            "children": [
+                {
+                    "name": "Zeta Global",
+                    "value": 13
                 }
             ]
         },
@@ -2094,7 +4893,16 @@
             "children": [
                 {
                     "name": "Zillow",
-                    "value": 61
+                    "value": 135
+                }
+            ]
+        },
+        {
+            "name": "ZipRecruiter",
+            "children": [
+                {
+                    "name": "ZipRecruiter",
+                    "value": 21
                 }
             ]
         },
@@ -2103,7 +4911,7 @@
             "children": [
                 {
                     "name": "Zomato",
-                    "value": 73
+                    "value": 86
                 }
             ]
         },
@@ -2112,7 +4920,7 @@
             "children": [
                 {
                     "name": "Zoom",
-                    "value": 0
+                    "value": 72
                 }
             ]
         },
@@ -2121,7 +4929,7 @@
             "children": [
                 {
                     "name": "ZoomInfo",
-                    "value": 11
+                    "value": 21
                 }
             ]
         },
@@ -2130,7 +4938,25 @@
             "children": [
                 {
                     "name": "Zscaler",
-                    "value": 32
+                    "value": 30
+                }
+            ]
+        },
+        {
+            "name": "Zuora",
+            "children": [
+                {
+                    "name": "Zuora",
+                    "value": 12
+                }
+            ]
+        },
+        {
+            "name": "dLocal",
+            "children": [
+                {
+                    "name": "dLocal",
+                    "value": 16
                 }
             ]
         },
@@ -2139,7 +4965,52 @@
             "children": [
                 {
                     "name": "eBay",
-                    "value": 68
+                    "value": 117
+                }
+            ]
+        },
+        {
+            "name": "eMemory Technology",
+            "children": [
+                {
+                    "name": "eMemory Technology",
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "name": "ePlus",
+            "children": [
+                {
+                    "name": "ePlus",
+                    "value": 9
+                }
+            ]
+        },
+        {
+            "name": "iQIYI",
+            "children": [
+                {
+                    "name": "iQIYI",
+                    "value": 20
+                }
+            ]
+        },
+        {
+            "name": "indie Semiconductor",
+            "children": [
+                {
+                    "name": "indie Semiconductor",
+                    "value": 9
+                }
+            ]
+        },
+        {
+            "name": "momo.com Inc.",
+            "children": [
+                {
+                    "name": "momo.com Inc.",
+                    "value": 0
                 }
             ]
         },
@@ -2148,6 +5019,33 @@
             "children": [
                 {
                     "name": "monday.com",
+                    "value": 98
+                }
+            ]
+        },
+        {
+            "name": "nCino",
+            "children": [
+                {
+                    "name": "nCino",
+                    "value": 8
+                }
+            ]
+        },
+        {
+            "name": "trivago",
+            "children": [
+                {
+                    "name": "trivago",
+                    "value": 5
+                }
+            ]
+        },
+        {
+            "name": "u-blox",
+            "children": [
+                {
+                    "name": "u-blox",
                     "value": 22
                 }
             ]
