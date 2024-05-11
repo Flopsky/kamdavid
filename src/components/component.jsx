@@ -211,7 +211,7 @@ export function Component() {
                   <img
                     alt="Argoproj"
                     className="w-10 h-10 transform hover:scale-110 transition-transform duration-200"
-                    src="https://landscape.cncf.io/logos/argo.svg"
+                    src="https://raw.githubusercontent.com/cloudbow/argoproj-argo/3f6ac9c9f1ccd92d4dabf52e964a1dd52b1622f6/os-project-logo.svg"
                     title="Argoproj" />
                   <img
                     alt="Terraform"
@@ -266,7 +266,16 @@ export function Component() {
                     className="w-10 h-10 transform hover:scale-110 transition-transform duration-200"
                     src="https://www.svgrepo.com/show/396671/hugging-face.svg"
                     title="Hugging Face" />
-                  <img alt="Pandas" className="w-10 h-10 transform hover:scale-110 transition-transform duration-200" src="https://www.svgrepo.com/show/473742/pandas.svg" title="Pandas" />
+                  <img
+                    alt="LangChain"
+                    className="w-10 h-10 transform hover:scale-110 transition-transform duration-200"
+                    src="https://latestlogo.com/wp-content/uploads/2024/03/langchain-logo.svg"
+                    title="LangChain" />
+                  <img 
+                    alt="Pandas" 
+                    className="w-10 h-10 transform hover:scale-110 transition-transform duration-200" 
+                    src="https://www.svgrepo.com/show/473742/pandas.svg" 
+                    title="Pandas" />
                 </CardContent>
               </Card>
             </div>
