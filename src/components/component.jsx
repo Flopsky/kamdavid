@@ -107,7 +107,7 @@ export function Component() {
             <h3 className="text-2xl font-bold">About Me</h3>
             <p className="text-lg text-gray-300">
               - 👀 I’m interested in Data Science, HPC and problem solving. <br />
-              - 🌱 I'm currently improving my skills in deep learning, high-performance computing (HPC) methods, and full-stack development.<br />
+              - 🌱 I'm continuously improving my skills in deep learning, high-performance computing (HPC) methods, and full-stack development.<br />
               - 💞️ I’m looking to collaborate on Data Science 🔥 , Maths libraries development 🔥<br />
               - 📫 How to reach me davidkamgang84@gmail.com<br />
             </p>
@@ -116,6 +116,52 @@ export function Component() {
           <section className="w-full flex flex-col items-center gap-8 p-4" id="projects">
             <h3 className="text-2xl font-bold">Current Projects</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+
+
+            <Card className="bg-gray-800 transform hover:scale-105 transition-transform duration-200">
+            <CardHeader>
+              <h4 className="text-lg font-bold text-orange-500"> {/* New color */}
+                <ProjectorIcon className="w-4 h-4" />
+                ArXFlix
+              </h4>
+            </CardHeader>
+            <CardContent>
+              <p className="text-sm text-gray-300">
+                ArXFlix turns your boring Arxiv research paper into a captivating video.
+                My team won Mistral AI Hackathon with this 24h project.
+              </p>
+              {/* Optional links */}
+              <a href="https://github.com/julien-blanchon/arxflix" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:underline">
+                GitHub Repo
+              </a>
+              <br></br>
+              <a href="https://www.youtube.com/@Arxflix" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:underline">
+                The Youtube Chanel
+              </a>
+
+            </CardContent>
+          </Card>
+
+            <Card className="bg-gray-800 transform hover:scale-105 transition-transform duration-200">
+            <CardHeader>
+              <h4 className="text-lg font-bold text-purple-500"> {/* Use a different color to distinguish */}
+                <ProjectorIcon className="w-4 h-4" />
+                DocTutor
+              </h4>
+            </CardHeader>
+            <CardContent>
+              <p className="text-sm text-gray-300">
+              DocTutor transforms code interaction by automatically creating comprehensive, customized documentation and examples. Leveraging an intelligent documentation engine and interactive CLI, DocTutor answers specific questions and documents entire projects with ease. It empowers developers to seamlessly explore and understand their codebase.
+              </p>
+              {/* Optionally add links to the project (GitHub, demo, etc.) */}
+                <a href="mailto:David%20Doe%20<davidkamgang84@gmail.com>" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:underline">
+                  Send me an email for beta test, or reach out on linkedin
+                </a>
+
+            </CardContent>
+          </Card>
+
               <Card className="bg-gray-800 transform hover:scale-105 transition-transform duration-200">
                 <CardHeader>
                   <h4 className="text-lg font-bold text-blue-500">
