@@ -153,6 +153,7 @@ export function Component() {
             <CardContent>
               <p className="text-sm text-gray-300">
               DocTutor transforms code interaction by automatically creating comprehensive, customized documentation and examples. Leveraging an intelligent documentation engine and interactive CLI, DocTutor answers specific questions and documents entire projects with ease. It empowers developers to seamlessly explore and understand their codebase.
+              Open Source on December.
               </p>
               {/* Optionally add links to the project (GitHub, demo, etc.) */}
                 <a href="mailto:David%20Doe%20<davidkamgang84@gmail.com>" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:underline">
