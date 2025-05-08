@@ -158,6 +158,7 @@ export function Component() {
               <a href="https://github.com/Flopsky/OpenDeepWiki" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:underline">
                 GitHub Repo
               </a>
+              <br></br>
               <a href="https://www.deepgithub.com/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:underline">
                 Official Web Site Link (still under construction)
               </a>
@@ -167,7 +168,7 @@ export function Component() {
           </Card>
             <Card className="bg-gray-800 transform hover:scale-105 transition-transform duration-200">
             <CardHeader>
-              <h4 className="text-lg font-bold text-purple-500"> {/* Use a different color to distinguish */}
+              <h4 className="text-lg font-bold text-red-500"> {/* Use a different color to distinguish */}
                 <ProjectorIcon className="w-4 h-4" />
                 Kokoro-Podcast
               </h4>
