@@ -147,19 +147,38 @@ export function Component() {
             <CardHeader>
               <h4 className="text-lg font-bold text-purple-500"> {/* Use a different color to distinguish */}
                 <ProjectorIcon className="w-4 h-4" />
-                DocTutor
+                OpenDeepWiki
               </h4>
             </CardHeader>
             <CardContent>
               <p className="text-sm text-gray-300">
-              DocTutor transforms code interaction by automatically creating comprehensive, customized documentation and examples. Leveraging an intelligent documentation engine and interactive CLI, DocTutor answers specific questions and documents entire projects with ease. It empowers developers to seamlessly explore and understand their codebase.
+              OpenDeepWiki transforms code interaction by automatically creating comprehensive, customized documentation and examples. Leveraging an intelligent documentation engine and interactive CLI, OpenDeepWiki answers specific questions and documents entire projects with ease. It empowers developers to seamlessly explore and understand their codebase.
               Open Source on December.
               </p>
-              {/* Optionally add links to the project (GitHub, demo, etc.) */}
-                <a href="mailto:David%20Doe%20<davidkamgang84@gmail.com>" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:underline">
-                  Send me an email for beta test, or reach out on linkedin
-                </a>
+              <a href="https://github.com/Flopsky/OpenDeepWiki" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:underline">
+                GitHub Repo
+              </a>
+              <a href="https://www.deepgithub.com/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:underline">
+                Official Web Site Link (still under construction)
+              </a>
 
+
+            </CardContent>
+          </Card>
+            <Card className="bg-gray-800 transform hover:scale-105 transition-transform duration-200">
+            <CardHeader>
+              <h4 className="text-lg font-bold text-purple-500"> {/* Use a different color to distinguish */}
+                <ProjectorIcon className="w-4 h-4" />
+                Kokoro-Podcast
+              </h4>
+            </CardHeader>
+            <CardContent>
+              <p className="text-sm text-gray-300">
+              Kokoro-Podcast is an open-source project that transforms arbitrarily long text into a continuous, streaming podcast-like audio experience. Its key innovation lies in its streaming architecture: it doesn't wait to process the entire text before playback. Instead, it begins narrating the text as soon as the first portion is ready, while simultaneously generating and queuing the remainder of the content in real time.
+              </p>
+              <a href="https://github.com/Flopsky/Kokoro-Podcast" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:underline">
+                GitHub Repo
+              </a>
             </CardContent>
           </Card>
 
