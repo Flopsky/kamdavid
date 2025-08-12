@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { Component } from '@/components/component'
 
 export const metadata = {
@@ -8,6 +7,6 @@ export const metadata = {
 
 export default function Home() {
   return (
-    Component()
+    <Component />
   )
 }
