@@ -42,8 +42,8 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Build with Next.js
-        run: npm run build && npm run export
+      - name: Build with Next.js (static export)
+        run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
