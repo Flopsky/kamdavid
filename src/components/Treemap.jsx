@@ -12,6 +12,7 @@ const InteractiveTreemap = ({
   const svgRef = useRef(null);
   const tooltipRef = useRef(null);
   const [selectedNode, setSelectedNode] = useState(null);
+  const zoomRef = useRef(null);
 
   const isDarkMode = () =>
     typeof document !== 'undefined' && document.documentElement.classList.contains('dark');
@@ -55,6 +56,15 @@ const InteractiveTreemap = ({
 
     const svg = d3.select(svgEl);
     const gRoot = svg.append('g');
+    const defs = svg.append('defs');
+
+    // subtle drop shadow filter used on hover
+    const filter = defs
+      .append('filter')
+      .attr('id', 'tm-shadow')
+      .attr('height', '200%')
+      .attr('width', '200%');
+    filter.append('feDropShadow').attr('dx', 0).attr('dy', 1).attr('stdDeviation', 1.2).attr('flood-opacity', 0.25);
 
     const render = () => {
       const { width, height } = container.getBoundingClientRect();
@@ -98,7 +108,7 @@ const InteractiveTreemap = ({
         .attr('role', 'listitem')
         .attr('tabindex', 0);
 
-      cell
+      const rect = cell
         .append('rect')
         .attr('width', (d) => Math.max(0, d.x1 - d.x0))
         .attr('height', (d) => Math.max(0, d.y1 - d.y0))
@@ -113,25 +123,44 @@ const InteractiveTreemap = ({
         .attr('opacity', 1);
 
       // labels
-      const text = cell.append('text').attr('x', 8).attr('y', 10).attr('pointer-events', 'none');
+      const text = cell
+        .append('text')
+        .attr('x', 8)
+        .attr('y', 10)
+        .attr('pointer-events', 'none')
+        .style('paint-order', 'stroke fill')
+        .attr('stroke-width', 0.65);
 
       text.each(function (d) {
         const group = d3.select(this);
-        const cellWidth = Math.max(0, d.x1 - d.x0) - 12; // padding
-        const cellHeight = Math.max(0, d.y1 - d.y0) - 12;
+        const fullWidth = Math.max(0, d.x1 - d.x0);
+        const fullHeight = Math.max(0, d.y1 - d.y0);
+        const cellWidth = fullWidth - 12; // padding
+        const cellHeight = fullHeight - 12;
 
+        const name = unescapeHtml(d.data?.name || '');
+        const value = d.value || 0;
+        const bg = d3.color(color(value));
+        const textFill = bg ? getContrastingTextColor(bg) : dark ? '#e6e6e6' : '#0f172a';
+        const strokeFill = textFill === '#f8fafc' ? 'rgba(0,0,0,0.35)' : 'rgba(255,255,255,0.5)';
+        group.attr('fill', textFill).attr('stroke', strokeFill);
+
+        // Extremely small cells: render a centered tiny abbreviation instead of removing
         if (cellWidth < 40 || cellHeight < 20) {
-          group.remove();
+          const abbr = abbreviateName(name, 4);
+          const minDim = Math.max(6, Math.min(10, Math.min(cellWidth, cellHeight) / 2.2));
+          group
+            .attr('x', fullWidth / 2)
+            .attr('y', fullHeight / 2)
+            .attr('text-anchor', 'middle')
+            .attr('dominant-baseline', 'central')
+            .style('font-size', `${minDim}px`)
+            .text(abbr);
           return;
         }
 
         const area = cellWidth * cellHeight;
         const base = Math.max(10, Math.min(18, Math.sqrt(area) / 14));
-        const name = unescapeHtml(d.data?.name || '');
-        const value = d.value || 0;
-        const bg = d3.color(color(value));
-        const textFill = bg ? getContrastingTextColor(bg) : (dark ? '#e6e6e6' : '#0f172a');
-        group.attr('fill', textFill);
 
         // two-line label: name (wrapped) + value
         wrapSvgText(group, name, cellWidth, base, cellHeight, 2);
@@ -154,9 +183,9 @@ const InteractiveTreemap = ({
       // interactions
       cell
         .on('mousemove', function (event, d) {
-          const rect = this.querySelector('rect');
-          if (rect) {
-            d3.select(rect).attr('stroke', highlightStroke).attr('stroke-width', 2);
+          const r = this.querySelector('rect');
+          if (r) {
+            d3.select(r).attr('stroke', highlightStroke).attr('stroke-width', 2).attr('filter', 'url(#tm-shadow)');
           }
 
           const { left, top } = container.getBoundingClientRect();
@@ -170,16 +199,32 @@ const InteractiveTreemap = ({
           `;
           tooltipEl.style.left = `${x + 12}px`;
           tooltipEl.style.top = `${y + 12}px`;
-          tooltipEl.classList.remove('hidden');
+          tooltipEl.style.visibility = 'visible';
         })
         .on('mouseleave', function () {
-          const rect = this.querySelector('rect');
-          if (rect) {
-            d3.select(rect).attr('stroke', strokeColor).attr('stroke-width', 1);
+          const r = this.querySelector('rect');
+          if (r) {
+            d3.select(r).attr('stroke', strokeColor).attr('stroke-width', 1).attr('filter', null);
           }
-          tooltipEl.classList.add('hidden');
+          tooltipEl.style.visibility = 'hidden';
         })
         .on('click', (_, d) => setSelectedNode(d));
+
+      // zoom/pan
+      const zoom = d3
+        .zoom()
+        .scaleExtent([1, 6])
+        .on('start', () => {
+          tooltipEl.style.visibility = 'hidden';
+        })
+        .on('zoom', (event) => {
+          gRoot.attr('transform', event.transform);
+          // keep strokes readable while zooming
+          gRoot.selectAll('rect').attr('stroke-width', 1 / event.transform.k);
+        });
+
+      svg.call(zoom);
+      zoomRef.current = { svg, zoom };
     };
 
     // initial render
@@ -193,25 +238,141 @@ const InteractiveTreemap = ({
 
     return () => {
       ro.disconnect();
+      svg.on('.zoom', null);
       svg.selectAll('*').remove();
     };
   }, [data, leavesValues]);
 
+  // legend stops for gradient background
+  const legend = useMemo(() => {
+    if (!leavesValues.length) return null;
+    const min = d3.min(leavesValues) ?? 0;
+    const max = d3.max(leavesValues) ?? 0;
+    const hasPos = max > 0;
+    const hasNeg = min < 0;
+    let domMin = min;
+    let domMax = max;
+    if (hasPos && hasNeg) {
+      const maxAbs = Math.max(Math.abs(min), Math.abs(max));
+      domMin = -maxAbs;
+      domMax = maxAbs;
+    } else if (hasPos) {
+      domMin = Math.min(0, min);
+    } else {
+      domMax = Math.max(0, max);
+    }
+
+    const color = getColorScale();
+    const stops = Array.from({ length: 7 }, (_, i) => {
+      const t = i / 6;
+      const v = domMin + t * (domMax - domMin);
+      return { offset: t * 100, color: color(v), value: v };
+    });
+
+    const gradientCss = `linear-gradient(to right, ${stops
+      .map((s) => `${s.color} ${s.offset}%`)
+      .join(', ')})`;
+
+    const labels = [domMin, (domMin + domMax) / 2, domMax].map((v) => formatValue(v));
+    return { gradientCss, labels };
+  }, [leavesValues]);
+
+  const containerBg = isDarkMode()
+    ? 'linear-gradient(180deg, rgba(15,23,42,0.9), rgba(15,23,42,0.95))'
+    : 'linear-gradient(180deg, rgba(248,250,252,0.7), rgba(248,250,252,1))';
+
   return (
-    <div ref={containerRef} className="treemap-container" style={{ width: '100%', height: '100%', position: 'relative' }}>
-      <svg ref={svgRef} className="w-full h-full" role="img" aria-label="Treemap chart" />
-      <div ref={tooltipRef} className="treemap-tooltip hidden" />
-      {selectedNode && (
-        <div
-          className="pointer-events-none absolute bottom-3 left-3 rounded-md border px-3 py-2 text-xs"
+    <div
+      ref={containerRef}
+      style={{
+        width: '100%',
+        height: '100%',
+        position: 'relative',
+        borderRadius: '12px',
+        background: containerBg,
+      }}
+    >
+      <svg ref={svgRef} style={{ width: '100%', height: '100%' }} role="img" aria-label="Treemap chart" />
+      {/* tooltip (inline styled to avoid global CSS dependency) */}
+      <div
+        ref={tooltipRef}
+        style={{
+          position: 'absolute',
+          pointerEvents: 'none',
+          padding: '6px 8px',
+          fontSize: 12,
+          lineHeight: 1.2,
+          borderRadius: 6,
+          border: '1px solid hsl(var(--border))',
+          background: 'hsl(var(--popover))',
+          color: 'hsl(var(--popover-foreground))',
+          boxShadow: '0 6px 24px rgba(0,0,0,0.15)',
+          zIndex: 10,
+          visibility: 'hidden',
+        }}
+      />
+
+      {/* reset and legend overlays */}
+      <div style={{ position: 'absolute', top: 8, right: 8, display: 'flex', gap: 8 }}>
+        <button
+          type="button"
+          onClick={() => {
+            setSelectedNode(null);
+            if (zoomRef.current) {
+              const { svg, zoom } = zoomRef.current;
+              svg.transition().duration(300).call(zoom.transform, d3.zoomIdentity);
+            }
+          }}
           style={{
-            background: 'hsl(var(--popover))',
-            color: 'hsl(var(--popover-foreground))',
-            borderColor: 'hsl(var(--border))',
+            border: '1px solid hsl(var(--border))',
+            background: 'hsl(var(--background))',
+            color: 'hsl(var(--foreground))',
+            borderRadius: 8,
+            fontSize: 12,
+            padding: '6px 10px',
           }}
         >
-          <div className="font-medium">{selectedNode?.data?.name}</div>
-          <div className="opacity-80">Value: {formatValue(selectedNode?.value || 0)}</div>
+          Reset view
+        </button>
+      </div>
+
+      {legend && (
+        <div style={{ position: 'absolute', bottom: 10, right: 12, display: 'flex', flexDirection: 'column', gap: 6 }}>
+          <div
+            style={{
+              width: 220,
+              height: 10,
+              borderRadius: 999,
+              border: '1px solid hsl(var(--border))',
+              background: legend.gradientCss,
+              boxShadow: 'inset 0 0 0 1px rgba(0,0,0,0.06)',
+            }}
+          />
+          <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 11, color: 'hsl(var(--muted-foreground))' }}>
+            <span>{legend.labels[0]}</span>
+            <span>{legend.labels[1]}</span>
+            <span>{legend.labels[2]}</span>
+          </div>
+        </div>
+      )}
+
+      {selectedNode && (
+        <div
+          className="pointer-events-none"
+          style={{
+            position: 'absolute',
+            bottom: 10,
+            left: 12,
+            borderRadius: 8,
+            border: '1px solid hsl(var(--border))',
+            background: 'hsl(var(--popover))',
+            color: 'hsl(var(--popover-foreground))',
+            padding: '8px 10px',
+            fontSize: 12,
+          }}
+        >
+          <div style={{ fontWeight: 600 }}>{selectedNode?.data?.name}</div>
+          <div style={{ opacity: 0.8 }}>Value: {formatValue(selectedNode?.value || 0)}</div>
         </div>
       )}
     </div>
@@ -303,5 +464,18 @@ function getContrastingTextColor(bgColor) {
   const b = bgColor.b;
   const yiq = (r * 299 + g * 587 + b * 114) / 1000;
   return yiq >= 140 ? '#0f172a' : '#f8fafc';
+}
+
+function abbreviateName(name, maxLen = 4) {
+  const trimmed = (name || '').trim();
+  if (!trimmed) return '';
+  // Try uppercase initials if multiple words
+  const words = trimmed.split(/\s+/);
+  if (words.length > 1) {
+    const initials = words.map((w) => w[0]).join('').toUpperCase();
+    return initials.slice(0, maxLen);
+  }
+  // Single word: take leading characters
+  return trimmed.slice(0, maxLen).toUpperCase();
 }
 

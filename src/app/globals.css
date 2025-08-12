@@ -78,21 +78,7 @@
 }
 
 /* Treemap specifics */
-.treemap-container { position: relative; overflow: hidden; margin: 8px 0; }
+.treemap-container { display: flex; justify-content: center; align-items: center; margin: 20px; }
 rect { cursor: pointer; }
-rect:hover { filter: brightness(0.95); }
+rect:hover { filter: brightness(0.9); }
 text { pointer-events: none; }
-
-.treemap-tooltip {
-  position: absolute;
-  pointer-events: none;
-  padding: 6px 8px;
-  font-size: 12px;
-  line-height: 1.2;
-  border-radius: 6px;
-  border: 1px solid hsl(var(--border));
-  background: hsl(var(--popover));
-  color: hsl(var(--popover-foreground));
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
-  z-index: 10;
-}
