@@ -5,6 +5,9 @@ import { CardHeader, CardContent, Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Projector } from "lucide-react"
 import InteractiveTreemap from '@/components/Treemap'
+import LineAreaChart from '@/components/LineAreaChart'
+import BarLeaderboard from '@/components/BarLeaderboard'
+import BreadthGauge from '@/components/BreadthGauge'
 
 
 export function Component() {
@@ -55,6 +58,33 @@ export function Component() {
                     {!loading && !error && treeData && <InteractiveTreemap data={treeData} />}
                 </div>
             </div>
+
+            {!loading && !error && (
+                <Card className="elevated-card">
+                    <CardHeader>
+                        <h2 className="text-lg font-semibold">Market overview</h2>
+                    </CardHeader>
+                    <CardContent>
+                        <div className="grid gap-6 lg:grid-cols-[1fr_280px] items-start">
+                            <LineAreaChart days={90} />
+                            <div className="flex justify-center"><BreadthGauge /></div>
+                        </div>
+                    </CardContent>
+                </Card>
+            )}
+
+            {!loading && !error && (
+                <Card className="elevated-card">
+                    <CardHeader>
+                        <h2 className="text-lg font-semibold">Leaders & laggards today</h2>
+                    </CardHeader>
+                    <CardContent>
+                        <BarLeaderboard limit={8} />
+                    </CardContent>
+                </Card>
+            )}
+
+            
 
             <section className="flex items-center justify-center">
                 <a href="mailto:davidkamgang84@gmail.com">
