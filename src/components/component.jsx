@@ -28,12 +28,12 @@ export function Component() {
               <a className="ring-hover" href="#" aria-label="YouTube"><Youtube className="h-5 w-5" /></a>
             </div>
           </div>
-          <div className="space-y-3 text-center md:text-left animate-fade-up">
+          <div className="space-y-4 text-center md:text-left animate-fade-up">
             <h1 className="text-3xl font-bold tracking-tight md:text-5xl text-gradient">Hello, I'm a HPC and Data Science Engineer</h1>
             <p className="balanced text-muted-foreground">I specialize in creating high-quality apps and projects, most of them open source.</p>
             <div className="flex flex-wrap items-center justify-center gap-3 md:justify-start">
-              <Link href="/#projects" className="text-sm underline">Explore projects</Link>
-              <Link href="/investing" className="text-sm underline">Investing dashboard</Link>
+              <Link href="/#projects"><Button variant="soft" size="lg">Explore projects</Button></Link>
+              <Link href="/investing"><Button variant="outline" size="lg">Investing dashboard</Button></Link>
             </div>
           </div>
         </div>
@@ -140,14 +140,14 @@ export function Component() {
               <h4 className="text-lg font-semibold">Data Engineering</h4>
             </CardHeader>
             <CardContent className="flex flex-wrap items-center justify-center gap-4 text-muted-foreground">
-              <img alt="SQL" className="h-10 w-10 ring-hover" src="https://www.svgrepo.com/show/331760/sql-database-generic.svg" title="SQL" />
-              <img alt="DBT" className="h-10 w-10 ring-hover" src="https://raw.githubusercontent.com/dbt-labs/events.getdbt.com/3df02b2103f5d4257c80f4ef4d70e98c87fd5530/ui/img/logos/logo-white.svg" title="DBT" />
-              <img alt="Snowflake" className="h-10 w-10 ring-hover" src="https://www.svgrepo.com/show/407485/snowflake.svg" title="Snowflake" />
-              <img alt="Azure" className="h-10 w-10 ring-hover" src="https://www.svgrepo.com/show/448274/azure.svg" title="Azure" />
-              <img alt="AWS" className="h-10 w-10 ring-hover" src="https://www.svgrepo.com/show/448266/aws.svg" title="AWS" />
-              <img alt="GCP" className="h-10 w-10 ring-hover" src="https://www.svgrepo.com/show/448223/gcp.svg" title="GCP" />
-              <img alt="Spark" className="h-10 w-10 ring-hover" src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" title="Spark" />
-              <img alt="ELK" className="h-10 w-10 ring-hover" src="https://cdn.worldvectorlogo.com/logos/elastic-stack.svg" title="ELK" />
+              <img alt="SQL" className="h-10 w-10 logo-soft" src="https://www.svgrepo.com/show/331760/sql-database-generic.svg" title="SQL" />
+              <img alt="DBT" className="h-10 w-10 logo-soft" src="https://raw.githubusercontent.com/dbt-labs/events.getdbt.com/3df02b2103f5d4257c80f4ef4d70e98c87fd5530/ui/img/logos/logo-white.svg" title="DBT" />
+              <img alt="Snowflake" className="h-10 w-10 logo-soft" src="https://www.svgrepo.com/show/407485/snowflake.svg" title="Snowflake" />
+              <img alt="Azure" className="h-10 w-10 logo-soft" src="https://www.svgrepo.com/show/448274/azure.svg" title="Azure" />
+              <img alt="AWS" className="h-10 w-10 logo-soft" src="https://www.svgrepo.com/show/448266/aws.svg" title="AWS" />
+              <img alt="GCP" className="h-10 w-10 logo-soft" src="https://www.svgrepo.com/show/448223/gcp.svg" title="GCP" />
+              <img alt="Spark" className="h-10 w-10 logo-soft" src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" title="Spark" />
+              <img alt="ELK" className="h-10 w-10 logo-soft" src="https://cdn.worldvectorlogo.com/logos/elastic-stack.svg" title="ELK" />
             </CardContent>
           </Card>
 
@@ -156,13 +156,13 @@ export function Component() {
               <h4 className="text-lg font-semibold">DevOps</h4>
             </CardHeader>
             <CardContent className="flex flex-wrap items-center justify-center gap-4 text-muted-foreground">
-              <img alt="Github Action" className="h-10 w-10 ring-hover" src="https://blog.frankel.ch/assets/resources/github-actions-maven-releases/git-hub-actions.svg" title="Github Action" />
-              <img alt="GitLab" className="h-10 w-10 ring-hover" src="https://images.ctfassets.net/xz1dnu24egyd/3FbNmZRES38q2Sk2EcoT7a/a290dc207a67cf779fc7c2456b177e9f/press-kit-icon.svg" title="GitLab" />
-              <img alt="Docker" className="h-10 w-10 ring-hover" src="https://www.svgrepo.com/show/349342/docker.svg" title="Docker" />
-              <img alt="Airflow" className="h-10 w-10 ring-hover" src="https://icon.icepanel.io/Technology/svg/Apache-Airflow.svg" title="Airflow" />
-              <img alt="Kubernetes" className="h-10 w-10 ring-hover" src="https://www.svgrepo.com/show/376331/kubernetes.svg" title="Kubernetes" />
-              <img alt="Argoproj" className="h-10 w-10 ring-hover" src="https://raw.githubusercontent.com/cloudbow/argoproj-argo/3f6ac9c9f1ccd92d4dabf52e964a1dd52b1622f6/os-project-logo.svg" title="Argoproj" />
-              <img alt="Terraform" className="h-10 w-10 ring-hover" src="https://static-00.iconduck.com/assets.00/terraform-icon-452x512-ildgg5fd.png" title="Terraform" />
+              <img alt="Github Action" className="h-10 w-10 logo-soft" src="https://blog.frankel.ch/assets/resources/github-actions-maven-releases/git-hub-actions.svg" title="Github Action" />
+              <img alt="GitLab" className="h-10 w-10 logo-soft" src="https://images.ctfassets.net/xz1dnu24egyd/3FbNmZRES38q2Sk2EcoT7a/a290dc207a67cf779fc7c2456b177e9f/press-kit-icon.svg" title="GitLab" />
+              <img alt="Docker" className="h-10 w-10 logo-soft" src="https://www.svgrepo.com/show/349342/docker.svg" title="Docker" />
+              <img alt="Airflow" className="h-10 w-10 logo-soft" src="https://icon.icepanel.io/Technology/svg/Apache-Airflow.svg" title="Airflow" />
+              <img alt="Kubernetes" className="h-10 w-10 logo-soft" src="https://www.svgrepo.com/show/376331/kubernetes.svg" title="Kubernetes" />
+              <img alt="Argoproj" className="h-10 w-10 logo-soft" src="https://raw.githubusercontent.com/cloudbow/argoproj-argo/3f6ac9c9f1ccd92d4dabf52e964a1dd52b1622f6/os-project-logo.svg" title="Argoproj" />
+              <img alt="Terraform" className="h-10 w-10 logo-soft" src="https://static-00.iconduck.com/assets.00/terraform-icon-452x512-ildgg5fd.png" title="Terraform" />
             </CardContent>
           </Card>
 
@@ -171,14 +171,14 @@ export function Component() {
               <h4 className="text-lg font-semibold">HPC</h4>
             </CardHeader>
             <CardContent className="flex flex-wrap items-center justify-center gap-4 text-muted-foreground">
-              <img alt="CUDA" className="h-10 w-10 ring-hover" src="https://www.svgrepo.com/show/373541/cuda.svg" title="CUDA" />
-              <img alt="OpenCL" className="h-10 w-10 ring-hover" src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenCL_logo.svg" title="OpenCL" />
-              <img alt="OpenMP" className="h-10 w-10 ring-hover" src="https://www.svgrepo.com/show/499714/rocket.svg" title="OpenMP" />
-              <img alt="MPI" className="h-10 w-10 ring-hover" src="https://www.svgrepo.com/show/448987/cluster.svg" title="MPI" />
-              <img alt="MKL" className="h-10 w-10 ring-hover" src="https://www.svgrepo.com/show/454733/chip-computer-cpu.svg" title="MKL" />
-              <img alt="BLAS" className="h-10 w-10 ring-hover" src="https://www.svgrepo.com/show/288625/chip-processor.svg" title="BLAS" />
-              <img alt="LAPACK" className="h-10 w-10 ring-hover" src="https://upload.wikimedia.org/wikipedia/commons/c/c0/LAPACK_logo.svg" title="LAPACK" />
-              <img alt="Inria/Vite" className="h-10 w-10 ring-hover" src="https://www.svgrepo.com/show/408990/thunderbolt.svg" title="Inria/Vite" />
+              <img alt="CUDA" className="h-10 w-10 logo-soft" src="https://www.svgrepo.com/show/373541/cuda.svg" title="CUDA" />
+              <img alt="OpenCL" className="h-10 w-10 logo-soft" src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenCL_logo.svg" title="OpenCL" />
+              <img alt="OpenMP" className="h-10 w-10 logo-soft" src="https://www.svgrepo.com/show/499714/rocket.svg" title="OpenMP" />
+              <img alt="MPI" className="h-10 w-10 logo-soft" src="https://www.svgrepo.com/show/448987/cluster.svg" title="MPI" />
+              <img alt="MKL" className="h-10 w-10 logo-soft" src="https://www.svgrepo.com/show/454733/chip-computer-cpu.svg" title="MKL" />
+              <img alt="BLAS" className="h-10 w-10 logo-soft" src="https://www.svgrepo.com/show/288625/chip-processor.svg" title="BLAS" />
+              <img alt="LAPACK" className="h-10 w-10 logo-soft" src="https://upload.wikimedia.org/wikipedia/commons/c/c0/LAPACK_logo.svg" title="LAPACK" />
+              <img alt="Inria/Vite" className="h-10 w-10 logo-soft" src="https://www.svgrepo.com/show/408990/thunderbolt.svg" title="Inria/Vite" />
             </CardContent>
           </Card>
 
@@ -187,11 +187,11 @@ export function Component() {
               <h4 className="text-lg font-semibold">Machine Learning</h4>
             </CardHeader>
             <CardContent className="flex flex-wrap items-center justify-center gap-4 text-muted-foreground">
-              <img alt="PyTorch" className="h-10 w-10 ring-hover" src="https://www.svgrepo.com/show/354240/pytorch.svg" title="PyTorch" />
-              <img alt="TensorFlow" className="h-10 w-10 ring-hover" src="https://www.svgrepo.com/show/375503/tensorflow-enterprise.svg" title="TensorFlow" />
-              <img alt="Hugging Face" className="h-10 w-10 ring-hover" src="https://www.svgrepo.com/show/396671/hugging-face.svg" title="Hugging Face" />
-              <img alt="LangChain" className="h-10 w-10 ring-hover" src="https://latestlogo.com/wp-content/uploads/2024/03/langchain-logo.svg" title="LangChain" />
-              <img alt="Pandas" className="h-10 w-10 ring-hover" src="https://www.svgrepo.com/show/473742/pandas.svg" title="Pandas" />
+              <img alt="PyTorch" className="h-10 w-10 logo-soft" src="https://www.svgrepo.com/show/354240/pytorch.svg" title="PyTorch" />
+              <img alt="TensorFlow" className="h-10 w-10 logo-soft" src="https://www.svgrepo.com/show/375503/tensorflow-enterprise.svg" title="TensorFlow" />
+              <img alt="Hugging Face" className="h-10 w-10 logo-soft" src="https://www.svgrepo.com/show/396671/hugging-face.svg" title="Hugging Face" />
+              <img alt="LangChain" className="h-10 w-10 logo-soft" src="https://latestlogo.com/wp-content/uploads/2024/03/langchain-logo.svg" title="LangChain" />
+              <img alt="Pandas" className="h-10 w-10 logo-soft" src="https://www.svgrepo.com/show/473742/pandas.svg" title="Pandas" />
             </CardContent>
           </Card>
         </div>

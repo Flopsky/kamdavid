@@ -58,7 +58,7 @@ export function Component() {
 
             <section className="flex items-center justify-center">
                 <a href="mailto:davidkamgang84@gmail.com">
-                    <Button>Contact Me</Button>
+                    <Button variant="soft">Contact Me</Button>
                 </a>
             </section>
         </div>
