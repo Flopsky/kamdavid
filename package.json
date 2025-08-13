@@ -10,6 +10,7 @@
     "export": "next export"
   },
   "dependencies": {
+    "@neondatabase/serverless": "1.0.1",
     "@nivo/treemap": "^0.84.0",
     "@radix-ui/react-avatar": "*",
     "@radix-ui/react-slot": "*",
@@ -20,9 +21,9 @@
     "clsx": "^1.1.1",
     "d3": "^7.8.5",
     "d3-hierarchy": "^3.1.2",
+    "lucide-react": "^0.451.0",
     "next": "^14.0.4",
     "next-themes": "^0.2.1",
-    "lucide-react": "^0.451.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-smooth": "^3.0.0",

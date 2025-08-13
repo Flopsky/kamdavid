@@ -1,13 +1,34 @@
 "use client"
 
+import { useEffect, useState } from 'react'
 import { CardHeader, CardContent, Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Projector } from "lucide-react"
 import InteractiveTreemap from '@/components/Treemap'
-import data from '@/data/positive.json'
 
 
 export function Component() {
+  const [treeData, setTreeData] = useState(null)
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState(null)
+
+  useEffect(() => {
+    const controller = new AbortController()
+    async function load() {
+      try {
+        const res = await fetch('/api/daily-sentiment?metric=positive', { cache: 'no-store', signal: controller.signal })
+        if (!res.ok) throw new Error(await res.text())
+        const json = await res.json()
+        setTreeData(json)
+      } catch (err) {
+        if (err.name !== 'AbortError') setError(err.message || 'Failed to load data')
+      } finally {
+        setLoading(false)
+      }
+    }
+    load()
+    return () => controller.abort()
+  }, [])
 
 
 
@@ -29,7 +50,9 @@ export function Component() {
 
             <div className="w-full">
                 <div className="h-[70vh] w-full">
-                    <InteractiveTreemap data={data} />
+                    {loading && <div className="flex h-full items-center justify-center text-sm text-muted-foreground">Loading…</div>}
+                    {error && <div className="flex h-full items-center justify-center text-sm text-red-600">{error}</div>}
+                    {!loading && !error && treeData && <InteractiveTreemap data={treeData} />}
                 </div>
             </div>
 

@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-
-  output: 'export',
-
+  // Enable API routes and server/edge runtimes by removing static export
   images: { unoptimized: true },
 }
 
