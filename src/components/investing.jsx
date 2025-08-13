@@ -44,7 +44,7 @@ export function Component() {
                     <h1 className="text-xl font-semibold"><Projector className="mr-2 inline h-5 w-5" /> Project Rocket</h1>
                 </CardHeader>
                 <CardContent className="text-muted-foreground">
-                    This dashboard ranks stocks: greener = better, bigger = larger movement. Updated every 24h.
+                    This dashboard ranks stocks: greener = better, bigger = larger movement. Updated {treeData?.as_of_date ? `on ${treeData.as_of_date}` : 'every 24h'}.
                 </CardContent>
             </Card>
 

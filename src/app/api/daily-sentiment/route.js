@@ -23,9 +23,9 @@ export async function GET(request) {
     const sql = neon(connectionString);
     // Direct query to the expected table in the 'sentiment' database
     const rows = await sql`
-      SELECT company, positive, negative
-      FROM public.daily_sentiments
-      WHERE as_of_date = (SELECT MAX(as_of_date) FROM public.daily_sentiments)
+      SELECT company, positive, negative, as_of_date
+      FROM public.daily_sentiments_unique
+      WHERE as_of_date = (SELECT MAX(as_of_date) FROM public.daily_sentiments_unique)
     `;
     const resultRows = Array.isArray(rows) ? rows : [];
 
@@ -40,6 +40,10 @@ export async function GET(request) {
       return NextResponse.json({ name: 'Root', children: [] }, { headers: { 'Cache-Control': 'no-store' } });
     }
 
+    const latestDate = resultRows[0]?.as_of_date
+      ? String(resultRows[0].as_of_date).slice(0, 10)
+      : null;
+
     const children = resultRows.map((r) => ({
       name: r.company,
       children: [
@@ -50,7 +54,7 @@ export async function GET(request) {
       ],
     }));
 
-    const data = { name: 'Root', children };
+    const data = { name: 'Root', as_of_date: latestDate, children };
     return NextResponse.json(data, { headers: { 'Cache-Control': 'no-store' } });
   } catch (error) {
     return NextResponse.json({ error: error?.message || 'Unexpected error' }, { status: 500 });
