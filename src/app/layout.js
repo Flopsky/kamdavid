@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="flex min-h-screen flex-col bg-background text-foreground">
             <SiteHeader />
-            <main className="container mx-auto w-full flex-1 px-4 py-8 bg-hero">{children}</main>
+            <main className="container mx-auto w-full flex-1 px-4 py-8">{children}</main>
             <SiteFooter />
           </div>
         </ThemeProvider>
