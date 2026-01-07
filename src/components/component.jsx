@@ -53,6 +53,30 @@ export function Component() {
           
           <Card className="elevated-card">
             <CardHeader>
+              <h4 className="text-lg font-semibold"><Projector className="mr-2 inline h-4 w-4" />DeepManim</h4>
+            </CardHeader>
+            <CardContent className="text-sm text-muted-foreground">
+              DeepManim helps you create engaging animated explainer videos, bringing your ideas to life through multi-scene storytelling. You can even provide images or PDFs to guide the animation.
+              <div className="mt-3 space-x-3">
+                <a className="underline" href="https://deepmanim.com/" target="_blank" rel="noreferrer">Website</a>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card className="elevated-card">
+            <CardHeader>
+              <h4 className="text-lg font-semibold"><Projector className="mr-2 inline h-4 w-4" />DeepGithub</h4>
+            </CardHeader>
+            <CardContent className="text-sm text-muted-foreground">
+              Automated code documentation and Q&A system. Transforms code interaction with a plug-and-play advanced RAG system. Tech: Python, LLMs, RAG.
+              <div className="mt-3 space-x-3">
+                <a className="underline" href="https://www.deepgithub.com/" target="_blank" rel="noreferrer">Website</a>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card className="elevated-card">
+            <CardHeader>
               <h4 className="text-lg font-semibold"><Projector className="mr-2 inline h-4 w-4" />ArXFlix</h4>
             </CardHeader>
             <CardContent className="text-sm text-muted-foreground">
@@ -73,19 +97,6 @@ export function Component() {
               <div className="mt-3 space-x-3">
                 <a className="underline" href="https://pypi.org/project/markthat/" target="_blank" rel="noreferrer">PyPI</a>
                 <a className="underline" href="https://github.com/Flopsky/MarkThat" target="_blank" rel="noreferrer">GitHub</a>
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card className="elevated-card">
-            <CardHeader>
-              <h4 className="text-lg font-semibold"><Projector className="mr-2 inline h-4 w-4" />OpenDeepWiki</h4>
-            </CardHeader>
-            <CardContent className="text-sm text-muted-foreground">
-              OpenDeepWiki transforms code interaction by creating documentation and examples automatically. Open source in December.
-              <div className="mt-3 space-x-3">
-                <a className="underline" href="https://github.com/Flopsky/OpenDeepWiki" target="_blank" rel="noreferrer">GitHub</a>
-                <a className="underline" href="https://www.deepgithub.com/" target="_blank" rel="noreferrer">Website</a>
               </div>
             </CardContent>
           </Card>
@@ -118,15 +129,6 @@ export function Component() {
             </CardHeader>
             <CardContent className="text-sm text-muted-foreground">
               Helps verify if a company lies about promos. Architecture in progress.
-            </CardContent>
-          </Card>
-
-          <Card className="elevated-card">
-            <CardHeader>
-              <h4 className="text-lg font-semibold"><Projector className="mr-2 inline h-4 w-4" />Project Feynman</h4>
-            </CardHeader>
-            <CardContent className="text-sm text-muted-foreground">
-              Learning assistant with synthesis and progressive questions. Includes MCQs.
             </CardContent>
           </Card>
         </div>
