@@ -33,7 +33,7 @@ export function useInView(ref, { once = true, threshold = 0.15 } = {}) {
 
 // A bento tile: reveals on scroll, follows the cursor with a soft spotlight,
 // and (optionally) tilts in 3D toward the pointer.
-export function Tile({ as: Tag = "div", className = "", delay = 0, tilt = false, glow = "rgba(47,76,255,0.10)", children, ...props }) {
+export function Tile({ as: Tag = "div", className = "", delay = 0, tilt = false, glow = "rgba(191,85,48,0.10)", children, ...props }) {
   const ref = useRef(null)
   const visible = useInView(ref)
 
@@ -46,9 +46,9 @@ export function Tile({ as: Tag = "div", className = "", delay = 0, tilt = false,
     el.style.setProperty("--mx", `${x}px`)
     el.style.setProperty("--my", `${y}px`)
     if (tilt && !prefersReducedMotion()) {
-      const rx = ((y / r.height) - 0.5) * -6
-      const ry = ((x / r.width) - 0.5) * 6
-      el.style.transform = `perspective(1000px) rotateX(${rx}deg) rotateY(${ry}deg) translateY(-4px)`
+      const rx = ((y / r.height) - 0.5) * -4
+      const ry = ((x / r.width) - 0.5) * 4
+      el.style.transform = `perspective(1000px) rotateX(${rx}deg) rotateY(${ry}deg) translateY(-3px)`
     }
   }
 
