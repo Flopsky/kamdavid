@@ -15,6 +15,53 @@
   .reveal-1 { animation-delay: 80ms; }
   .reveal-2 { animation-delay: 180ms; }
   .reveal-3 { animation-delay: 280ms; }
+
+  /* Bento tiles: scroll reveal, hover lift/tilt, cursor spotlight */
+  .tile {
+    opacity: 0;
+    translate: 0 28px;
+    transition:
+      opacity 800ms cubic-bezier(0.22, 1, 0.36, 1) var(--delay, 0ms),
+      translate 800ms cubic-bezier(0.22, 1, 0.36, 1) var(--delay, 0ms),
+      transform 250ms ease-out,
+      box-shadow 300ms ease;
+    will-change: transform;
+  }
+  .tile.is-visible { opacity: 1; translate: 0 0; }
+  .tile:hover { box-shadow: 0 24px 60px -24px rgba(20, 24, 60, 0.35); }
+  .tile-glow {
+    opacity: 0;
+    transition: opacity 300ms ease;
+    background: radial-gradient(420px circle at var(--mx, 50%) var(--my, 50%), var(--glow), transparent 60%);
+  }
+  .tile:hover .tile-glow { opacity: 1; }
+
+  .rise { animation: rise 900ms cubic-bezier(0.22, 1, 0.36, 1) both; }
+
+  .draw { stroke-dasharray: 1; animation: draw 4s ease-in-out infinite; }
+  .spin { animation: spin 6s linear infinite; transform-origin: 0 0; }
+
+  .marquee { animation: marquee 40s linear infinite; }
+  .marquee-wrap:hover .marquee { animation-play-state: paused; }
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(0.4em) rotate(4deg); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes draw {
+  0% { stroke-dashoffset: 1; }
+  45%, 70% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: -1; }
+}
+
+@keyframes spin {
+  to { rotate: 360deg; }
+}
+
+@keyframes marquee {
+  to { transform: translateX(-50%); }
 }
 
 @keyframes reveal {
@@ -23,6 +70,8 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .reveal { animation: none; }
+  .reveal, .rise, .draw, .spin, .marquee { animation: none; }
+  .draw { stroke-dasharray: none; }
+  .tile { opacity: 1; translate: none; transition: none; }
   html { scroll-behavior: auto; }
 }

@@ -18,6 +18,7 @@ export const projects = [
   {
     name: "DeepManim",
     kind: "Product",
+    featured: true,
     blurb:
       "Animated explainer videos from a prompt, an image or a PDF — multi-scene storytelling rendered with Manim.",
     tags: ["LLM", "Video", "Manim"],
