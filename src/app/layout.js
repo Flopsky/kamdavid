@@ -1,27 +1,23 @@
-import { Inter } from 'next/font/google'
+import { Inter, Instrument_Serif, JetBrains_Mono, Bricolage_Grotesque } from 'next/font/google'
 import './globals.css'
-import { ThemeProvider } from '@/components/theme-provider'
-import { SiteHeader } from '@/components/site-header'
-import { SiteFooter } from '@/components/site-footer'
+import { OptionSwitcher } from '@/components/option-switcher'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'], variable: '--font-sans' })
+const serif = Instrument_Serif({ subsets: ['latin'], weight: '400', style: ['normal', 'italic'], variable: '--font-serif' })
+const mono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-mono' })
+const grotesk = Bricolage_Grotesque({ subsets: ['latin'], variable: '--font-grotesk' })
 
 export const metadata = {
-  title: 'David Kamgang — Portfolio',
-  description: 'HPC and Data Science Engineer. Projects, skills, and investing dashboards.',
+  title: 'David Kamgang — HPC & Data Science Engineer',
+  description: 'David Kamgang builds high-performance systems and AI tools. Projects include DeepManim, DeepGithub, ArXFlix and MarkThat.',
 }
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <div className="flex min-h-screen flex-col bg-background text-foreground">
-            <SiteHeader />
-            <main className="container mx-auto w-full flex-1 px-4 py-8">{children}</main>
-            <SiteFooter />
-          </div>
-        </ThemeProvider>
+    <html lang="en" className={`${inter.variable} ${serif.variable} ${mono.variable} ${grotesk.variable}`}>
+      <body className="font-sans antialiased">
+        {children}
+        <OptionSwitcher />
       </body>
     </html>
   )
