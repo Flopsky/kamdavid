@@ -1,13 +1,13 @@
 import { profile, projects, skills } from "@/content/profile"
 
-// Option C — Bento.
+// Landing page.
 // A confident grid of tiles: bold grotesk type, soft neutrals, one cobalt accent.
 
 const tile = "rounded-[28px] bg-white p-6 sm:p-8"
 
 function Arrow({ className = "" }) {
   return (
-    <span className={`inline-flex h-10 w-10 items-center justify-center rounded-full border border-current/20 text-lg transition-transform duration-300 group-hover:rotate-45 ${className}`}>
+    <span className={`inline-flex h-10 w-10 items-center justify-center rounded-full border text-lg transition-transform duration-300 group-hover:rotate-45 ${className}`}>
       ↗
     </span>
   )
@@ -27,7 +27,7 @@ function ProjectTile({ p, featured }) {
         <span className={`rounded-full px-3 py-1 text-xs font-medium ${featured ? "bg-white/15" : "bg-[#ececea] text-neutral-600"}`}>
           {p.award ?? p.kind}
         </span>
-        <Arrow />
+        <Arrow className={featured ? "border-white/30" : "border-neutral-900/15"} />
       </div>
       <div>
         <h3 className={`font-grotesk font-semibold tracking-tight ${featured ? "text-5xl sm:text-7xl" : "text-3xl"}`}>{p.name}</h3>
@@ -81,7 +81,7 @@ export function Bento() {
             </span>
             <span className="flex items-end justify-between font-grotesk text-2xl font-semibold leading-tight">
               Open to<br />collaboration
-              <Arrow />
+              <Arrow className="border-white/30" />
             </span>
           </a>
         </section>
@@ -123,7 +123,7 @@ export function Bento() {
             </div>
             <div className="flex items-center gap-4 text-white/70">
               <span className="text-sm sm:text-base">{profile.email}</span>
-              <Arrow className="h-14 w-14 bg-[#2f4cff] text-white" />
+              <Arrow className="h-14 w-14 border-transparent bg-[#2f4cff] text-white" />
             </div>
           </a>
         </section>

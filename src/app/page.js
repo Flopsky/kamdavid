@@ -1,5 +1,5 @@
-import { Editorial } from '@/components/landing/editorial'
+import { Bento } from '@/components/landing/bento'
 
 export default function Home() {
-  return <Editorial />
+  return <Bento />
 }

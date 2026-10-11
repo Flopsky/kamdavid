@@ -4,7 +4,7 @@
 
 @layer base {
   html { scroll-behavior: smooth; }
-  ::selection { background: #1a1a1a; color: #f4f1ea; }
+  ::selection { background: #2f4cff; color: #fff; }
 }
 
 @layer utilities {
@@ -15,8 +15,6 @@
   .reveal-1 { animation-delay: 80ms; }
   .reveal-2 { animation-delay: 180ms; }
   .reveal-3 { animation-delay: 280ms; }
-
-  .blink { animation: blink 1.1s steps(1) infinite; }
 }
 
 @keyframes reveal {
@@ -24,11 +22,7 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
-@keyframes blink {
-  50% { opacity: 0; }
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .reveal, .blink { animation: none; }
+  .reveal { animation: none; }
   html { scroll-behavior: auto; }
 }

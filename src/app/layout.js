@@ -1,10 +1,7 @@
-import { Inter, Instrument_Serif, JetBrains_Mono, Bricolage_Grotesque } from 'next/font/google'
+import { Inter, Bricolage_Grotesque } from 'next/font/google'
 import './globals.css'
-import { OptionSwitcher } from '@/components/option-switcher'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' })
-const serif = Instrument_Serif({ subsets: ['latin'], weight: '400', style: ['normal', 'italic'], variable: '--font-serif' })
-const mono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-mono' })
 const grotesk = Bricolage_Grotesque({ subsets: ['latin'], variable: '--font-grotesk' })
 
 export const metadata = {
@@ -14,11 +11,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${inter.variable} ${serif.variable} ${mono.variable} ${grotesk.variable}`}>
-      <body className="font-sans antialiased">
-        {children}
-        <OptionSwitcher />
-      </body>
+    <html lang="en" className={`${inter.variable} ${grotesk.variable}`}>
+      <body className="font-sans antialiased">{children}</body>
     </html>
   )
 }

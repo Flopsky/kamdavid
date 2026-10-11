@@ -1,9 +1,7 @@
-// Single source of truth for the landing-page content.
-// Every design option reads from here, so copy edits happen in one place.
+// Landing-page content: edit copy, projects and skills here.
 
 export const profile = {
   name: "David Kamgang",
-  firstName: "David",
   role: "HPC & Data Science Engineer",
   email: "davidkamgang84@gmail.com",
   avatar: "https://avatars.githubusercontent.com/u/75791840?v=4",
